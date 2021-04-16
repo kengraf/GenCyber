@@ -62,5 +62,6 @@ The challenges re-enforce the lessons learned during the camp.
 
 UNH hosted services  
 [Kali](http://kali.cyber-unh.org)  
+[TresureHunt](http://treasure.cyber-unh.org)
 [CTF](http://ctf.cyber-unh.org/)  
-[GenCyberCoin game](http://coin.cyber-unh.org)  
+[GenCyberCoin](http://coin.cyber-unh.org) game.  
