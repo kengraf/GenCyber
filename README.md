@@ -36,23 +36,23 @@ in the lessons.  You will be working a temporary sandbox, so can not damage the 
 
 The Linux lab has separate instructions for connecting to the remote Kali instance this lab uses. 
 ## Thursday: “Virtual treasure hunts”
-Morning 1:  Tools lecture:  Google Maps, Geocaching, What3Words, Earth point systems
-Morning 2:  NH based hunt 
-Afternoon 1: USA based hunt
-Afternoon 2: International hunt
+Morning 1:  Tools lecture:  Google Maps, Geocaching, What3Words, Earth point systems  
+Morning 2:  NH based hunt   
+Afternoon 1: USA based hunt  
+Afternoon 2: International hunt  
 
 ## Friday: “Cryptopuzzles”
 
-The week ends with a day long CTF.  
+The week ends with a day long [CTF](http://ctf.cyber-unh.org).  
 The challenges re-enforce the lessons learned during the camp.  
-[CTF](http://ctf.cyber-unh.org)
+
 
 ## Online tools used during camp
 [Discord](https://discord.com/) Invite only.  All participants will have a personal channel which is visible to all participants.    
 [CyberChef](https://gchq.github.io/CyberChef/) Open source tool from the GCHQ in the UK.  
 [RSA Calculator](https://www.cs.drexel.edu/~jpopyack/IntroCS/HW/RSAWorksheet.html)  
 [Hacksplaining](https://www.hacksplaining.com/lessons) Vulnerability training.  
-[YouTube](https://youtube.com/) Various pre-recorded instructions to augment topic lectures.
+[YouTube](https://youtube.com/) Various pre-recorded instructions to augment topic lectures.  
 [GenCyberCoin](https://github.com/vitalyford/gencybercoin)  Credit: Dr. Ford, Tennessee Tech.  The game will be hosted by UNH  
 [Google Maps](https://www.google.com/maps/)  
 [GeoCaching](https://www.geocachingtoolbox.com/index.php)  
@@ -61,6 +61,6 @@ The challenges re-enforce the lessons learned during the camp.
 [Chrome Secure Shell](https://chrome.google.com/webstore/detail/secure-shell-app/pnhechapfaindjhompbnflcldabbghjo) Chromium extension developed by Google.   
 
 UNH hosted services  
-[Kali](ssh://kali.cyber-unh.org)  
+[Kali](http://kali.cyber-unh.org)  
 [CTF](http://ctf.cyber-unh.org/)  
 [GenCyberCoin game](http://coin.cyber-unh.org)  
