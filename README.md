@@ -43,7 +43,9 @@ Afternoon 2: International hunt
 
 ## Friday: “Cryptopuzzles”
 
-The week ends with a day long [CTF](http://ctf.cyber-unh.org).  
+The week ends with a day long [CTF](http://ctf.cyber-unh.org). 
+[<img src="http://ctf.cyber-unh.org">](http://ctf.cyber-unh.org)
+
 The challenges re-enforce the lessons learned during the camp.  
 
 
