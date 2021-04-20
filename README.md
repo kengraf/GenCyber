@@ -13,7 +13,6 @@ Morning 1: Cryptography history lessons (Caesar, Vigenere, Enigma)
 Morning 2: Hands-on based on Pringles can [Enigma](https://cyber.org/enigma).   
 Afternoon 1: Modern cryptography lesson (AES, RSA)  
 Afternoon 2: Hands-on using online tools [CyberChef](https://gchq.github.io/CyberChef/) and [RSA Calculator](https://www.cs.drexel.edu/~jpopyack/IntroCS/HW/RSAWorksheet.html)  
-<img src="nhtreasure-hunt.png" alt="drawing" width="600"/>
 
 ## Wednesday: “Spies and Codes”
 Python security coding.  
@@ -41,6 +40,7 @@ Morning 1:  Tools lecture:  Google Maps, Geocaching, What3Words, Earth point sys
 Morning 2:  NH based hunt   
 Afternoon 1: USA based hunt  
 Afternoon 2: International hunt  
+<img src="nh-treasurehunt.png" alt="drawing" width="600"/>
 
 ## Friday: “Cryptopuzzles”
 
