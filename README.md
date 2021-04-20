@@ -45,6 +45,7 @@ Afternoon 2: International hunt
 
 The week ends with a day long [CTF](http://ctf.cyber-unh.org). <br>
 <img src="unh-gencyber.png" alt="drawing" width="200"/>
+<img src="unh-gencyber-c.png" alt="drawing" width="200"/>
 
 The challenges re-enforce the lessons learned during the camp.  
 
