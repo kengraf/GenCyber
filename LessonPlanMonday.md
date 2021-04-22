@@ -1,6 +1,6 @@
 # UNH GenCyber : Monday "Hello World!" Lesson Plan
 # Introductions, Social Engineering, and Bug Bounty Hunting
-This first day of camp has an opening session is not included in this daily lesson plan.  The opening session will cover: camp specific logistics, safety policies, and rules of conduct. 
+This first day of camp has an opening session not included in this daily lesson plan.  The opening session will cover: camp specific logistics, safety policies, and rules of conduct. 
 
 ## Lesson Description
 As this is their first day together, students will learn about follow classmates through the exchange of personal stories.  Students will perform research and reconnaissance, the Open Source Intelligence Gathering (OSINT), activities required for effective social engineering.  Students will discover a variety of client- and server-side bugs and automatically get rewarded with GenCyberCoins for those. Some bug examples: sensitive data exposure, broken authentication, XSS, user input validation, and directory Traversal.
