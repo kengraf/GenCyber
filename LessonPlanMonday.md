@@ -11,9 +11,9 @@ Students should have a basic understanding of how to use a web browser and be ab
 The lesson has three (3) modules. Each module starts with a brief (15 minute) overview to provide context, instructions, and goals for the students.  Student typically complete each module in 90-120 minutes.  The modules have the following sequence.  
 Module 1: Introductions  
  All students and instructors take three (3) minutes to present their personal story to the class.  The story can be an event, place, or emotion the student would like to share. The story is meant to be an ice-breaker, it is used in the next module, and again in lessons later in the week.  
- Module 2: Social Engineering  
- This module uses the reconnaissance features of GenCyberCoin.  For each student story, instructors will post a single question.  Students receive points (coins) for each correct answer.  The questions will require a small amount of research time (less than 5 minutes).  Instructors may post additional group questions to foster additional student exchanges.
- Module 3: Bug Bounty Hunting 
+Module 2: Social Engineering  
+ This module uses the reconnaissance features of GenCyberCoin.  For each student story, instructors will post a single question.  Students receive points (coins) for each correct answer.  The questions will require a small amount of research time (less than 5 minutes).  Instructors may post additional group questions to foster additional student exchanges.  
+Module 3: Bug Bounty Hunting 
  This module uses a series of programming flaws built into GenCyberCoin. The game provides a list of bugs to locate, with hints.  The listed is roughly ordered by difficulty.  Coins are rewarded for each bug successfully located.  Students work at their own pace, are encouraged to collaborate on methods, and not required to complete all tasks.
 ### Level of Instruction
 The lesson is intended for high school learners (beginner and intermediate levels)
@@ -113,7 +113,7 @@ queries by spending more time reading the material provided in the Reconnaissanc
 - Students navigate to the shared URL and register with the shared registration code.
 - Students navigate to Features → Reconnaissance to learn about Open Source Intelligence Gathering (OSINT) and Social Engineering.
 - Students answer as many questions as they can on the Reconnaissance page.
-- Everybody can see everyone’s progress on the OSINT Ninjas page.
+- Everybody can see everyone’s progress on the OSINT Ninjas page.  
 ### Module 3: Bug Bounty Hunting 
 #### Hacksplaining
 - Use the lessons on [Hacksplaining](https://hacksplaining.com) to introduce the types of bug to found in GenCyberCoin.
