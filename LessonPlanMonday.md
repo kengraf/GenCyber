@@ -54,8 +54,10 @@ The lesson is intended for high school learners (beginner and intermediate level
 - Before the beginning of the lesson.  Each student needs to provide a personal story about an event in their life.  It can be an event, place, or emotion they would like to share.  It is meant to be brief less than 100 words, but must contain at least twenty words six characters or longer.  The last requirement is for lessons later in the week.
 - Each student needs access to a browser and have the ability to connect to the remote meeting with both video and audio.
 - Websites/Software used  
- - [GenCyberCoin Game](https://github.com/vitalyford/gencybercoin) ![](gencybercoin.png)
- - [Hacksplaining](https://hacksplaining.com) ![](./hacksplaining.png)
+ - [GenCyberCoin Game](https://github.com/vitalyford/gencybercoin)
+<img src="gencybercoin.png" alt="drawing" width="600"/>
+ - [Hacksplaining](https://hacksplaining.com)
+<img src="hacksplaining.png" alt="drawing" width="600"/>
 
 ### Accommodations Needed
 Special technical setup may be needed for students who are visually or physically impaired to use the
@@ -84,23 +86,24 @@ compromised, and how to correctly manage it.
 Advanced students can learn more attacks and find more bugs within the allocated time and learn more by exploring the links
 that are related to the found bugs. Also, advanced students can discover more sophisticated search
 queries by spending more time reading the material provided in the Reconnaissance activity.
-## LESSON DELIVERY
-### Instructor and Teaching Assistant Preparation
-#### Introductions
+## LESSON PREPARATION
+### Introductions
  - Validate all students have posted their personal story prior to the start of lesson
-#### Hacksplaining
+### Hacksplaining
 - Review lessons on [Hacksplaining](https://hacksplaining.com)
 - Students should authenticate to see all lessons. 
-- The Bug Bounty Hunting uses lessons: Cross-Site Scripting, Reflected XSS, Weak Session ID, Information Leakage¬, Directory Traversal, and Cross-site Request Forgery.
-#### GenCyberCoin
+- The Bug Bounty Hunting uses lessons: Cross-Site Scripting, Reflected XSS, Weak Session ID, Information Leakage, Directory Traversal, and Cross-site Request Forgery.
+### GenCyberCoin
  - The instructor can learn how the GenCyberCoin platform works by watching a [12-minute video](https://github.com/vitalyford/gencybercoin).  
  - The **instructor** needs to follow the directions for deploying on Heroku.  
-Walk: https://arcadia.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=14f839b7-0dd7-4816-87f8-aa4f013c6ca2
+ - Review the [solutions walkthrough](https://arcadia.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=14f839b7-0dd7-4816-87f8-aa4f013c6ca2)
  - After the system is deployed, login in with “gcsuperuser/gcsuperuser” credentials, change the password.
  - Generate registration code for (admins), normally the instructor and all teaching assistants
+ - Generate registration code for (student), a sinlge infinite code works well.
  - Add recon questions based on student stories.
  - Add items to marketplace
- - Create new badges and activity information.
+ - Create new badges and activity information as needed.
+## LESSON DELIVERY
 ### Module 1: Introductions  
 - All students and instructors take three (3) minutes to present their personal story to the class.
 ### Module 2: Social Engineering  
@@ -109,22 +112,24 @@ Walk: https://arcadia.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=14f839b7-0
 - Students navigate to Features → Reconnaissance to learn about Open Source Intelligence Gathering (OSINT) and Social Engineering.
 - Students answer as many questions as they can on the Reconnaissance page.
 - Everybody can see everyone’s progress on the OSINT Ninjas page.
- ### Module 3: Bug Bounty Hunting 
--  Use Hacksplaining 
+### Module 3: Bug Bounty Hunting 
 #### Hacksplaining
 - Use the lessons on [Hacksplaining](https://hacksplaining.com) to introduce the types of bug to found in GenCyberCoin.
 - Students should authenticate to see all lessons, social network authentication is recommended over email.  Instructors will lead as students follow along.
-- The Bug Bounty Hunting uses the following lessons: Cross-Site Scripting, Reflected XSS, Weak Session ID, Information Leakage¬, Directory Traversal, and Cross-site Request Forgery.  Each lesson takes 3-4 minutes.
- This module uses a series of programming flaws built into GenCyberCoin. The game provides a list of bugs to locate, with hints.  The listed is roughly ordered by difficulty.  Coins are rewarded for each bug successfully located.  Students work at their own pace, are encouraged to collaborate on methods, and not required to complete all tasks.
-Student information
+- The Bug Bounty Hunting uses the following lessons: Cross-Site Scripting, Reflected XSS, Weak Session ID, Information Leakage, Directory Traversal, and Cross-site Request Forgery.  Each lesson takes 3-4 minutes.
 
 #### GenCyberCoin
+This module uses a series of programming flaws built into GenCyberCoin. 
 - Login at URL provided to the class.
 - Navigate to Features → Bug Bounty to learn about what kinds of bugs to search for on the
 platform. There are hints in place to help you find those bugs.
-- Find as many bugs as you can on the Bug Bounty page. Everybody can see everyone’s progress
+- The listed is roughly ordered by difficulty.
+- Coins are rewarded for each bug successfully located.
+- Students work at their own pace, are encouraged to collaborate on methods, and not required to complete all tasks.
+Student information
+- Find as many bugs as possible on the Bug Bounty page. Everybody can see everyone’s progress
 on the Hall of Fame page.
-- As you progress through the activities, you automatically earn GenCyberCoins and every
+- As students progress through the activities, they automatically earn GenCyberCoins and every
 action/transaction is tracked on the Blockchain (Features → Blockchain).
 - Discuss the details of Reconnaissance and Bug Bounty as well as their implications in the real
 world.
