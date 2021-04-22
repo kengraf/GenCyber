@@ -1,8 +1,9 @@
 # UNH GenCyber : Monday "Hello World!" Lesson Plan
 # Introductions, Social Engineering, and Bug Bounty Hunting
+This first day of camp has an opening session is not included in this daily lesson plan.  The opening session will cover: camp specific logistics, safety policies, and rules of conduct. 
 
 ## Lesson Description
-As this is their first day together, students will learn about follow classmates through the exchange of personal stories.  Students will perform research and reconnaissance, the Open Source Intelligence Gathering (OSINT), activities required for effective social engineering.  Students will discover a variety of client- and server-side bugs and automatically get rewarded with GenCyberCoins for those. Some bug examples: sensitive data exposure, broken authentication, XSS, user input validation, and local file inclusion.
+As this is their first day together, students will learn about follow classmates through the exchange of personal stories.  Students will perform research and reconnaissance, the Open Source Intelligence Gathering (OSINT), activities required for effective social engineering.  Students will discover a variety of client- and server-side bugs and automatically get rewarded with GenCyberCoins for those. Some bug examples: sensitive data exposure, broken authentication, XSS, user input validation, and directory Traversal.
 ### Prerequisite Knowledge
 Students should have a basic understanding of how to use a web browser and be able to engage using remote meeting tools.
 
@@ -54,10 +55,10 @@ The lesson is intended for high school learners (beginner and intermediate level
 - Before the beginning of the lesson.  Each student needs to provide a personal story about an event in their life.  It can be an event, place, or emotion they would like to share.  It is meant to be brief less than 100 words, but must contain at least twenty words six characters or longer.  The last requirement is for lessons later in the week.
 - Each student needs access to a browser and have the ability to connect to the remote meeting with both video and audio.
 - Websites/Software used  
- - [GenCyberCoin Game](https://github.com/vitalyford/gencybercoin)
-<img src="gencybercoin.png" alt="drawing" width="600"/>
- - [Hacksplaining](https://hacksplaining.com)
-<img src="hacksplaining.png" alt="drawing" width="600"/>
+ - [GenCyberCoin Game](https://github.com/vitalyford/gencybercoin)  
+<img src="gencybercoin.png" alt="drawing" width="600"/>  
+ - [Hacksplaining](https://hacksplaining.com)  
+<img src="hacksplaining.png" alt="drawing" width="600"/>  
 
 ### Accommodations Needed
 Special technical setup may be needed for students who are visually or physically impaired to use the
