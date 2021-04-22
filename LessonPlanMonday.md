@@ -1,11 +1,19 @@
-# Introductions, Social Engineering, and Bug Bounty Hunting
+# UNH GenCyber : Monday "Hello World!" Lesson Plan
+# Modules: Introductions, Social Engineering, and Bug Bounty Hunting
 
 ## Lesson Description
-
+As this is their first day together, students will learn about follow classmates through the exchange of personal stories.  Students will preform research and reconnaissance, the Open Source Intelligence Gathering (OSINT), activities required for effective social engineering.  Students will discover a variety of client- and server-side bugs and automatically get rewarded with GenCyberCoins for those. Some bug examples: sensitive data exposure, broken authentication, XSS, user input validation, and local file inclusion.
 ### Prerequisite Knowledge
+Students should have a basic understanding of how to use a web browser and be able to engage using remote meeting tools.
 
 ### Schedule
-
+The lessons has three (3) modules. Each module starts with a brief (15 minute) overview to provide context, instructions, and goals for the students.  Student typically complete each module in 90-120 minutes.  The modules have the following sequence.  
+Module 1: Introductions  
+ All students and instructors take three (3) minutes to present thier personal story to the class.  The story can be an event, place, or emotion the student would like to share. The story is meant to be an ice-breaker, it is used in the next module, and again in lessons later in the week.  
+ Module 2: Social Engineering  
+ This module uses the reconnaissance features of GenCyberCoin.  For each student story, instructors will post a single question.  Students receive points (coins) for each correct answer.  The questions will require a small amount of research time (less than 5 minutes).  Instructors may post additional group questions to foster additional student exchanges.
+ Module 3: Bug Bounty Hunting 
+ This module uses a series of programming flaws built into GenCyberCoin. The game provides a list of bugs to locate, with hints.  The listed is roughly ordered by difficulty.  Coins are rewarded for each bug successfully located.  Students work at their own pace, are encouraged to collaborate on methods, and not required to complete all tasks.
 ### Level of Instruction
 The lesson is intended for high school learners (beginner and intermediate levels)
 
@@ -43,9 +51,9 @@ The lesson is intended for high school learners (beginner and intermediate level
 </table>
  
 ## Resources & Requirements
-- Each student needs to provide a personal story about an event in their life.
-- Each student needs access to a browser
-- Websites/Software used
+- Before the beginning of the lesson.  Each student needs to provide a personal story about an event in their life.  It can be an event, place, or emotion you would like to share.  It is meant to be brief less than 100 words, but must contain at least twenty words six characters or longer.  The last requirement is for lessons later in the week.
+- Each student needs access to a browser and connected to the remote meeting both with both video and audio.
+- Websites/Software used  
  - [GenCyberCoin Game](https://github.com/vitalyford/gencybercoin)
  - [Hacksplaining](https://hacksplaining.com)
 
@@ -77,29 +85,37 @@ compromised, and how to correctly manage it.
 Advanced students can learn more attacks and find more bugs within the allocated time and learn more by exploring the links
 that are related to the found bugs. Also, advanced students can discover more sophisticated search
 queries by spending more time reading the material provided in the Reconnaissance activity.
-## LESSON
-### Instructor Preparation
-The instructor can learn herself how the platform works by watching a 12-minute video on
-https://github.com/vitalyford/gencybercoin. Next, the instructor needs to follow the directions for
-deploying on Heroku. After the system is deployed, the instructor logs in with
-“gcsuperuser/gcsuperuser” credentials, changes the password, and shares the URL of the deployed
-platform with her students. She can also create a code for her teaching assistants or herself to be
-admins for the school if they would like to change anything on the market or create new badges and
-activity information.
+## LESSON DELIVERY
+### Instructor and Teaching Assitant Preparation
+- Introductions
+ - Validate all students have posted their personal story prior to the start of lesson
+- Hacksplaining
+ - Review lessons on [Hacksplaining](https://hacksplaining.com)
+- GenCyberCoin
+ - The instructor can learn how the GenCyberCoin platform works by watching a [12-minute video](https://github.com/vitalyford/gencybercoin).  
+ - The **instructor** needs to follow the directions for deploying on Heroku.  
+ - After the system is deployed, login in with “gcsuperuser/gcsuperuser” credentials, change the password.
+ - Generate registration code for (admins), normally the instructor and all teaching assitants
+ - Add recon questions based on student stories.
+ - Add items to marketplace
+ - Create new badges and activity information.
+### Module 1: Introductions  
+- All students and instructors take three (3) minutes to present thier personal story to the class.
+### Module 2: Social Engineering  
+- The instructor shows a [2-minute video](https://github.com/vitalyford/gencybercoin) about the GenCyberCoin platform to the students.
+- Students navigate to the shared URL and register with the shared registration code.
+- Students navigate to Features → Reconnaissance to learn about Open Source Intelligence Gathering (OSINT) and Social Engineering.
+- Students answer as many questions as they can on the Reconnaissance page.
+- Everybody can see everyone’s progress on the OSINT Ninjas page.
+ Module 3: Bug Bounty Hunting 
+ This module uses a series of programming flaws built into GenCyberCoin. The game provides a list of bugs to locate, with hints.  The listed is roughly ordered by difficulty.  Coins are rewarded for each bug successfully located.  Students work at their own pace, are encouraged to collaborate on methods, and not required to complete all tasks.
 Student information
-The instructor can show a 2-minute video about the GenCyberCoin platform to the students:
-https://github.com/vitalyford/gencybercoin
-Students navigate to the shared URL and register on the platform, selecting “Trial” at the very bottom of
-the registration page.
+
 ## Lesson walthrough
 - Validate student story is posted and visible to classmates.
 - Register an account and explore the GenCyberCoin platform.
 2. Navigate to Features → Bug Bounty to learn about what kinds of bugs to search for on the
 platform. There are hints in place to help you find those bugs.
-3. Navigate to Features → Reconnaissance to learn about Open Source Intelligence Gathering
-(OSINT) and Social Engineering.
-4. Answer as many questions as you can on the Reconnaissance page. Everybody can see
-everyone’s progress on the OSINT Ninjas page.
 5. Find as many bugs as you can on the Bug Bounty page. Everybody can see everyone’s progress
 on the Hall of Fame page.
 6. As you progress through the activities, you automatically earn GenCyberCoins and every
