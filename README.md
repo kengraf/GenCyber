@@ -1,7 +1,7 @@
 # GenCyber
 This repo supports a week of hands-on GenCyber Camp actvities.
 
-## Monday: “Hello world!”
+## Monday: “Hello world!” [Lesson Plan](./LessonPlanMonday.md)
 First hour: Welcome message. Set expectations.  
 Morning: Online Security presentation, Sharing camper stories.  
 Afternoon 1:  Social CTF for an ice breaker, using the [GenCyberCoin](https://github.com/vitalyford/gencybercoin) game.   
@@ -57,7 +57,7 @@ The challenges re-enforce the lessons learned during the camp.
 [RSA Calculator](https://www.cs.drexel.edu/~jpopyack/IntroCS/HW/RSAWorksheet.html)  
 [Hacksplaining](https://www.hacksplaining.com/lessons) Vulnerability training.  
 [YouTube](https://youtube.com/) Various pre-recorded instructions to augment topic lectures.  
-[GenCyberCoin](https://github.com/vitalyford/gencybercoin)  Credit: Dr. Ford, Tennessee Tech.  The game will be hosted by UNH  
+[GenCyberCoin](https://github.com/vitalyford/gencybercoin)  Credit: Dr. Ford, Arcadia Univ.  The game will be hosted by UNH  
 [Google Maps](https://www.google.com/maps/)  
 [GeoCaching](https://www.geocachingtoolbox.com/index.php)  
 [What3Words](https://what3words.com/clip.apples.leap) 
