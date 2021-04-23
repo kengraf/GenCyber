@@ -3,7 +3,7 @@
 This first day of camp has an opening session not included in this daily lesson plan.  The opening session will cover: camp specific logistics, safety policies, and rules of conduct. 
 
 ## Lesson Description
-As this is their first day together, students will learn about follow classmates through the exchange of personal stories.  Students will perform research and reconnaissance, the Open Source Intelligence Gathering (OSINT), activities required for effective social engineering.  Students will discover a variety of client- and server-side bugs and automatically get rewarded with GenCyberCoins for those. Some bug examples: sensitive data exposure, broken authentication, XSS, user input validation, and directory Traversal.
+As this is their first day together, students will learn about fellow classmates through the exchange of personal stories.  Students will perform research and reconnaissance activities required for effective social engineering.  Students will discover a variety of client- and server-side bugs and automatically get rewarded with GenCyberCoins for those. Some bug examples: sensitive data exposure, broken authentication, cross-site scripting, user input validation, and directory traversal.
 ### Prerequisite Knowledge
 Students should have a basic understanding of how to use a web browser and be able to engage using remote meeting tools.
 
@@ -31,7 +31,7 @@ The lesson is intended for high school learners (beginner and intermediate level
  </tr>
  <tr>
    <td>Minimization</td>
-   <td><i>Modularity</i></td>
+   <td>Modularity</td>
    <td>Process Isolation</td>
    <td><i>Encapsulation</i></td>
   <td><i>Simplicity</i></td>
@@ -56,14 +56,14 @@ The lesson is intended for high school learners (beginner and intermediate level
 - Each student needs access to a browser and have the ability to connect to the remote meeting with both video and audio.
 - Websites/Software used  
 [GenCyberCoin Game](https://github.com/vitalyford/gencybercoin)  
-<img src="gencybercoin.png" alt="drawing" width="600"/>  
+<img src="gencybercoin.png" alt="drawing" width="500"/>  
 
 - [Hacksplaining](https://hacksplaining.com)  
-<img src="hacksplaining.png" alt="drawing" width="600"/>  
+<img src="hacksplaining.png" alt="drawing" width="500"/>  
 
 ### Accommodations Needed
 Special technical setup may be needed for students who are visually or physically impaired to use the
-computer.
+computer or engage in a remote meeting.
 
 ## LESSON LEARNING OUTCOMES
 - Demonstrate the ability to think like an adversary and identify what can go wrong on a website
@@ -93,16 +93,16 @@ queries by spending more time reading the material provided in the Reconnaissanc
  - Validate all students have posted their personal story prior to the start of lesson
 ### Hacksplaining
 - Review lessons on [Hacksplaining](https://hacksplaining.com)
-- Students should authenticate to see all lessons. 
-- The Bug Bounty Hunting uses lessons: Cross-Site Scripting, Reflected XSS, Weak Session ID, Information Leakage, Directory Traversal, and Cross-site Request Forgery.
+- Students must authenticate to see all lessons. 
+- The Bug Bounty Hunting uses the following Hacksplaining lessons: Cross-Site Scripting, Reflected XSS, Weak Session ID, Information Leakage, Directory Traversal, and Cross-site Request Forgery.
 ### GenCyberCoin
  - The instructor can learn how the GenCyberCoin platform works by watching a [12-minute video](https://github.com/vitalyford/gencybercoin).  
  - The **instructor** needs to follow the directions for deploying on Heroku.  
  - Review the [solutions walkthrough](https://arcadia.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=14f839b7-0dd7-4816-87f8-aa4f013c6ca2)
  - After the system is deployed, login in with “gcsuperuser/gcsuperuser” credentials, change the password.
  - Generate registration code for (admins), normally the instructor and all teaching assistants
- - Generate registration code for (student), a sinlge infinite code works well.
- - Add recon questions based on student stories.
+ - Generate registration code for (students), a single infinite code works well.
+ - Add reconnaissance questions based on student stories.
  - Add items to marketplace
  - Create new badges and activity information as needed.
 ## LESSON DELIVERY
