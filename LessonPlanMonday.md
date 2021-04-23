@@ -7,7 +7,7 @@ As this is their first day together, students will learn about fellow classmates
 ### Prerequisite Knowledge
 Students should have a basic understanding of how to use a web browser and be able to engage using remote meeting tools.
 
-### Schedule
+### Length of Completion
 The lesson has three (3) modules. Each module starts with a brief (15 minute) overview to provide context, instructions, and goals for the students.  Student typically complete each module in 90-120 minutes.  The modules have the following sequence.  
 *Module 1: Introductions*  
  All students and instructors take three (3) minutes to present their personal story to the class.  The story can be an event, place, or emotion the student would like to share. The story is meant to be an ice-breaker, it is used in the next module, and again in lessons later in the week.  
@@ -61,11 +61,11 @@ The lesson is intended for high school learners (beginner and intermediate level
 - [Hacksplaining](https://hacksplaining.com)  
 <img src="hacksplaining.png" alt="drawing" width="500"/>  
 
-### Accommodations Needed
+## Accommodations Needed
 Special technical setup may be needed for students who are visually or physically impaired to use the
 computer or engage in a remote meeting.
 
-## LESSON LEARNING OUTCOMES
+## LEARNING OUTCOMES
 - Demonstrate the ability to think like an adversary and identify what can go wrong on a website
 - Demonstrate the ability to use Internet resources to gather relevant information during a reconnaissance effort.
 - Learn about different types of vulnerabilities that are typical for websites.
@@ -105,7 +105,7 @@ queries by spending more time reading the material provided in the Reconnaissanc
  - Add reconnaissance questions based on student stories.
  - Add items to marketplace
  - Create new badges and activity information as needed.
-## LESSON DELIVERY
+## LESSON 
 ### Module 1: Introductions  
 - All students and instructors take three (3) minutes to present their personal story to the class.
 ### Module 2: Social Engineering  
