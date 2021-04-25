@@ -38,9 +38,9 @@ The Linux lab has separate instructions for connecting to the remote Kali instan
 ## Thursday: “Virtual treasure hunts”
 Morning 1:  Tools lecture:  Google Maps, Geocaching, What3Words, Earth point systems  
 Morning 2:  NH based hunt   
-<img src="nh-treasurehunt.png" alt="drawing" width="600"/>
+<img src="nh-treasurehunt.png" alt="drawing" width="600"/><br>
 Afternoon 1: USA based hunt  
-<img src="us-treasurehunt.png" alt="drawing" width="600"/>
+<img src="us-treasurehunt.png" alt="drawing" width="600"/><br>
 Afternoon 2: International hunt  
 
 ## Friday: “Cryptopuzzles”
