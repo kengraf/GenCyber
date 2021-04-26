@@ -42,6 +42,7 @@ Morning 2:  NH based hunt
 Afternoon 1: USA based hunt  
 <img src="us-treasurehunt.png" alt="drawing" width="600"/><br>
 Afternoon 2: International hunt  
+<img src="world-treasurehunt.png" alt="drawing" width="600"/><br>
 
 ## Friday: “Cryptopuzzles”
 
