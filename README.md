@@ -38,11 +38,11 @@ The Linux lab has separate instructions for connecting to the remote Kali instan
 ## Thursday: “Virtual treasure hunts”
 Morning 1:  Tools lecture:  Google Maps, Geocaching, What3Words, Earth point systems  
 Morning 2:  NH based hunt   
-<a href="https://wlowi.cyber-unh.org/treasuremap.html?region=NH"><img src="nh-treasurehunt.png" alt="drawing" width="600"/></a><br>
+<a href="https://wlowi.cyber-unh.org/treasuremap.html?region=NH" target="_blank"><img src="nh-treasurehunt.png" alt="drawing" width="600"/></a><br>
 Afternoon 1: USA based hunt  
-<a href="https://wlowi.cyber-unh.org/treasuremap.html?region=US"><img src="us-treasurehunt.png" alt="drawing" width="600"/></a><br>
+<a href="https://wlowi.cyber-unh.org/treasuremap.html?region=US" target="_blank"><img src="us-treasurehunt.png" alt="drawing" width="600"/></a><br>
 Afternoon 2: International hunt  
-<a href="https://wlowi.cyber-unh.org/treasuremap.html?region=WORLD"><img src="world-treasurehunt.png" alt="drawing" width="600"/></a><br>
+<a href="https://wlowi.cyber-unh.org/treasuremap.html?region=WORLD" target="_blank"><img src="world-treasurehunt.png" alt="drawing" width="600"/></a><br>
 
 ## Friday: “Cryptopuzzles”
 
