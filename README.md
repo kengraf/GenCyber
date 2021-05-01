@@ -38,26 +38,26 @@ The Linux lab has separate instructions for connecting to the remote Kali instan
 ## Thursday: “Virtual treasure hunts”
 Morning 1:  Tools lecture:  Google Maps, Geocaching, What3Words, Earth point systems  
 Morning 2:  NH based hunt   
-<a href="https://wlowi.cyber-unh.org/treasuremap.html?region=NH" target="_blank"><img src="nh-treasurehunt.png" alt="drawing" width="600"/></a><br>
+<a href="https://wlowi.cyber-unh.org/treasuremap.html?region=NH" target="_blank"><img src="images/nh-treasurehunt.png" alt="drawing" width="600"/></a><br>
 Afternoon 1: USA based hunt  
-<a href="https://wlowi.cyber-unh.org/treasuremap.html?region=US" target="_blank"><img src="us-treasurehunt.png" alt="drawing" width="600"/></a><br>
+<a href="https://wlowi.cyber-unh.org/treasuremap.html?region=US" target="_blank"><img src="images/us-treasurehunt.png" alt="drawing" width="600"/></a><br>
 Afternoon 2: International hunt  
-<a href="https://wlowi.cyber-unh.org/treasuremap.html?region=WORLD" target="_blank"><img src="world-treasurehunt.png" alt="drawing" width="600"/></a><br>
+<a href="https://wlowi.cyber-unh.org/treasuremap.html?region=WORLD" target="_blank"><img src="images/world-treasurehunt.png" alt="drawing" width="600"/></a><br>
 
 ## Friday: “Cryptopuzzles”
 
 The week ends with a day long [CTF](http://ctf.cyber-unh.org). <br>
-<img src="unh-gencyber.png" alt="drawing" width="200"/>
-<img src="unh-gencyber-c.png" alt="drawing" width="200"/>
+<img src="images/unh-gencyber.png" alt="drawing" width="200"/>
+<img src="images/unh-gencyber-c.png" alt="drawing" width="200"/>
 
 The challenges re-enforce the lessons learned during the camp.  
 
 
 ## Online tools used during camp
 [Discord](https://discord.com/) Invite only.  All participants will have a personal channel which is visible to all participants.    
-[CyberChef](https://gchq.github.io/CyberChef/) Open source tool from the GCHQ in the UK.  
+[CyberChef](https://gchq.github.io/CyberChef/) Open source cipher tool from the GCHQ in the UK.  
 [RSA Calculator](https://www.cs.drexel.edu/~jpopyack/IntroCS/HW/RSAWorksheet.html)  
-[Hacksplaining](https://www.hacksplaining.com/lessons) Vulnerability training.  
+[Hacksplaining](https://www.hacksplaining.com/lessons) Web vulnerability training.  
 [YouTube](https://youtube.com/) Various pre-recorded instructions to augment topic lectures.  
 [GenCyberCoin](https://github.com/vitalyford/gencybercoin)  Credit: Dr. Ford, Arcadia Univ.  The game will be hosted by UNH  
 [Google Maps](https://www.google.com/maps/)  
