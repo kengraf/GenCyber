@@ -10,7 +10,7 @@ Students should have a basic understanding of how to use a web browser and be ab
 ### Length of Completion
 The lesson has four (4) modules. Each module starts with a brief (15 minute) overview to provide context, instructions, and goals for the students.  Students typically complete each module in 60-90 minutes.  The modules have the following sequence.  
 
-*Module 1: Cryptography history lessons (Caesar, Vigenere, Enigma)*  
+*Module 1: Cryptography history lessons (Scytale, Caesar, Vigenere, Enigma)*  
 TBD
 *Module 2: Hands-on based on Pringles can Enigma*  
 TBD
