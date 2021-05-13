@@ -71,20 +71,20 @@ computer or engage in a remote meeting.
 
 ## LESSON DETAILS
 ### Assessment
-The assessment for this lesson is a combination of informal observation and game statistics:
-- The number of students completing the base hands-on exercise for each lesson.
+The assessment for this lesson is a combination of informal observation and game statistics:  
+- The number of students completing the base hands-on exercise for each lesson.  
 - The number of students attempting or completing the bonus exercises.
 
 ### Differentiated Learning Opportunities
-Hands-on exercise provide a base challenge and one or more bonus challenges.
+Hands-on exercise provide a base challenge and one or more bonus challenges.  
 Online resources are provided for self paced study.
 
 ## LESSON PREPARATION
 ### General
-Review the "Pringles Can" videos to understand the "Cipher History" module's hands-on exercises
-[Scytale Video](images/pringlescan-scytale.mp4)
-[Pringle Can Assembly Video](images/pringlescan-assemble.mp4)
-[Pringles Can Use Video](images/pringlescan-use.mp4) Caesar, Vigenere, Enigma
+Review the "Pringles Can" videos to understand the "Cipher History" module's hands-on exercises  
+[Scytale Video](images/pringlescan-scytale.mp4)  
+[Pringle Can Assembly Video](images/pringlescan-assemble.mp4)  
+[Pringles Can Use Video](images/pringlescan-use.mp4) Caesar, Vigenere, Enigma  
 
 Review/Personalize [Lesson slides](CipherHistory-LectureSlides.pdf)
 DX-TBD
