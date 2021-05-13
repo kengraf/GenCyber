@@ -82,7 +82,11 @@ Online resources are provided for self paced study.
 ## LESSON PREPARATION
 ### General
 Review the "Pringles Can" videos to understand the "Cipher History" module's hands-on exercises
-[Scytale Video]()
+[Scytale Video](images/pringlescan-scytale.mp4)
+[Pringle Can Assembly Video](images/pringlescan-assemble.mp4)
+[Pringles Can Use Video](images/pringlescan-use.mp4) Caesar, Vigenere, Enigma
+
+Review/Personalize [Lesson slides](CipherHistory-LectureSlides.pdf)
 DX-TBD
 
 ### SOFTWARE TBD
