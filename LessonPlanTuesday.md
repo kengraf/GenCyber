@@ -1,25 +1,23 @@
 # UNH GenCyber : Tuesday “A history of secrets” Lesson Plan
-TBD
+"A history of secrets" covers fundamental cipher operations to current everyday use of cryptography.
 
 ## Lesson Description
-TBD
+A "Cipher History" module introduces transposition and subsitiution as fundamental cipher operations. A second module "Modern Cipher" demonstrates how cryptography is used now in our daily lives.
 
 ### Prerequisite Knowledge
 Students should have a basic understanding of how to use a web browser and be able to engage using remote meeting tools.
 
 ### Length of Completion
-The lesson has four (4) modules. Each module starts with a brief (15 minute) overview to provide context, instructions, and goals for the students.  Students typically complete each module in 60-90 minutes.  The modules have the following sequence.  
+The lesson has two (2) modules each containing a set of lessons. Each lesson starts with a brief (15 minute) overview to provide context, instructions, and goals for the students.  Students are then a hands-on exercise that is typically completed in 10-30 minutes.  The modules and lessons have the following sequence.  
 
-*Module 1: Cryptography history lessons (Scytale, Caesar, Vigenere, Enigma)*  
-TBD
-*Module 2: Hands-on based on Pringles can Enigma*  
-TBD
-*Module 3: Modern cryptography lesson (AES, RSA)*  
-TBD
-*Module 4: Hands-on using online tools CyberChef and RSA Calculator*  
-TBD
-### Level of Instruction
-The lesson is intended for high school learners (beginner and intermediate levels)
+*"Cipher History" module*
+Lesson: Transposition.  The hands-on exercies uses the Greek/Sparta Scytale cipher
+Lesson: Substitution.		The hands-on exercies uses the Caesar cipher.
+Lesson: Compound		The hands-on exercies uses Civil War messages encoded with the Vigenère cipher.
+Lesson: Frequency Analysis		The hands-on exercies uses the Pringle can Enigma exercise
+*"Modern Cryptography" module*
+DX:TBD
+lesson (AES, RSA) 
 
 ## Applicable First Principles and Concepts
 
