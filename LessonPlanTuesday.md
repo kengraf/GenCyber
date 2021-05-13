@@ -13,8 +13,8 @@ The lesson has two (2) modules each containing a set of lessons. Each lesson sta
 *"Cipher History" module*
 Lesson: Transposition.  The hands-on exercies uses the Greek/Sparta Scytale cipher
 Lesson: Substitution.		The hands-on exercies uses the Caesar cipher.
-Lesson: Compound		The hands-on exercies uses Civil War messages encoded with the Vigenère cipher.
-Lesson: Frequency Analysis		The hands-on exercies uses the Pringle can Enigma exercise
+Lesson: Frequency Analysis. 	The hands-on exercies uses Civil War messages encoded with the Vigenère cipher.
+Lesson: Compound.		The hands-on exercies uses the Pringle can Enigma exercise.
 *"Modern Cryptography" module*
 DX:TBD
 lesson (AES, RSA) 
@@ -55,31 +55,36 @@ lesson (AES, RSA)
 ## Resources & Requirements
 - Each student needs access to a browser and have the ability to connect to the remote meeting with both video and audio.
 - Websites/Software used  
-[GenCyberCoin Game](https://github.com/vitalyford/gencybercoin)  
-<img src="images/gencybercoin.png" alt="drawing" width="500"/>  
+[Pringles Enigma lab](http://wiki.franklinheath.co.uk/index.php/Enigma/Paper_Enigma )
+[Cyber Chef](https://gchq.github.io/CyberChef/)
+[Spy Museum](https://www.spymuseum.org/)
 
-- [Hacksplaining](https://hacksplaining.com)  
-<img src="images/hacksplaining.png" alt="drawing" width="500"/>  
 
 ## Accommodations Needed
 Special technical setup may be needed for students who are visually or physically impaired to use the
 computer or engage in a remote meeting.
 
 ## LEARNING OUTCOMES
-- Demonstrate the ability to think like an adversary and identify what can go wrong on a website
-- Demonstrate the ability to use Internet resources to gather relevant information during a reconnaissance effort.
-- Learn about different types of vulnerabilities that are typical for websites.
-- Learn the basics of web ethical hacking and exploitation.
+- Demonstrate an understanding of ciphers based on transposiotn and subsitution.
+- Demonstrate the ability to use Internet resources to perform cipher operations.
+- Demonstrate the use of frequency analysis to decode enciphered messages.
 
 ## LESSON DETAILS
 ### Assessment
 The assessment for this lesson is a combination of informal observation and game statistics:
-- The number of students answering .. TBD
+- The number of students completing the base hands-on exercise for each lesson.
+- The number of students attempting or completing the bonus exercises.
 
 ### Differentiated Learning Opportunities
-Advanced students can learn more TBD
+Hands-on exercise provide a base challenge and one or more bonus challenges.
+Online resources are provided for self paced study.
+
 ## LESSON PREPARATION
-### General TBD
+### General
+Review the "Pringles Can" videos to understand the "Cipher History" module's hands-on exercises
+[Scytale Video]()
+DX-TBD
+
 ### SOFTWARE TBD
 ## LESSON 
 ### Module 1: TBD, repeat for each module
