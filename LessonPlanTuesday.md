@@ -86,11 +86,10 @@ Review the "Pringles Can" videos to understand the "Cipher History" module's han
 
 *Scytale demonstration using a Pringles can*  
 
-<figure class="video_container">
+<figure class="video-container">
   <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
     <source src="images/pringlescan-scytale.mp4" type="video/mp4">
   </video>
-  <iframe src="" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 *How to assemble a Pringles can Enigma machine*  
