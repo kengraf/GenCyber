@@ -83,24 +83,24 @@ Online resources are provided for self paced study.
 ## LESSON PREPARATION
 ### General
 Review the "Pringles Can" videos to understand the "Cipher History" module's hands-on exercises  
+
 *Scytale demonstration using a Pringles can*  
-<!-- blank line -->
+
 <figure class="video_container">
   <iframe src="images/pringlescan-scytale.mp4" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
-<!-- blank line -->
+
 *How to assemble a Pringles can Enigma machine*  
-<!-- blank line -->
+
 <figure class="video_container">
   <iframe src="images/pringlescan-assemble.mp4" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
-<!-- blank line -->
+
 *Demonstration of Caesar, Vigenere, and Enigma*  
-<!-- blank line -->
+
 <figure class="video_container">
   <iframe src="images/pringlescan-use.mp4" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
-<!-- blank line -->
 
 Review/Personalize the lecture [Link to lesson slides](images/CipherHistory-LectureSlides.pdf)
 ## DX:TBD related content
