@@ -14,7 +14,7 @@ Morning 2: Hands-on based on Pringles can [Enigma](https://cyber.org/enigma).
 Afternoon 1: Modern cryptography lesson (AES, RSA)  
 Afternoon 2: Hands-on using online tools [CyberChef](https://gchq.github.io/CyberChef/) and [RSA Calculator](https://www.cs.drexel.edu/~jpopyack/IntroCS/HW/RSAWorksheet.html)  
 
-## Wednesday: “Spies and Codes”
+## Wednesday: “Spies and Codes” [Lesson Plan](./LessonPlanWednesday.md)
 Python security coding.  
 These lessons are based on IPython and use BinderHub and JupyterHub to create interactive environments.  
 
@@ -35,7 +35,7 @@ environment.  Then click on the lesson link "LESSON.ipynb" you would like to run
 in the lessons.  You will be working a temporary sandbox, so can not damage the original lesson. 
 
 The Linux lab has separate instructions for connecting to the remote Kali instance this lab uses. 
-## Thursday: “Virtual treasure hunts”
+## Thursday: “Virtual treasure hunts” [Lesson Plan](./LessonPlanThursday.md)
 Morning 1:  Tools lecture:  Google Maps, Geocaching, What3Words, Earth point systems  
 Morning 2:  NH based hunt   
 <a href="https://wlowi.cyber-unh.org/treasuremap.html?region=NH" target="_blank"><img src="images/nh-treasurehunt.png" alt="drawing" width="600"/></a><br>
@@ -44,7 +44,7 @@ Afternoon 1: USA based hunt
 Afternoon 2: International hunt  
 <a href="https://wlowi.cyber-unh.org/treasuremap.html?region=WORLD" target="_blank"><img src="images/world-treasurehunt.png" alt="drawing" width="600"/></a><br>
 
-## Friday: “Cryptopuzzles”
+## Friday: “Cryptopuzzles” [Lesson Plan](./LessonPlanFriday.md)
 
 The week ends with a day long [CTF](http://ctf.cyber-unh.org). <br>
 <img src="images/unh-gencyber.png" alt="drawing" width="200"/>
