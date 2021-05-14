@@ -55,9 +55,9 @@ lesson (AES, RSA)
 ## Resources & Requirements
 - Each student needs access to a browser and have the ability to connect to the remote meeting with both video and audio.
 - Websites/Software used  
-[Pringles Enigma lab](http://wiki.franklinheath.co.uk/index.php/Enigma/Paper_Enigma )
-[Cyber Chef](https://gchq.github.io/CyberChef/)
-[Spy Museum](https://www.spymuseum.org/)
+[Pringles Enigma lab](http://wiki.franklinheath.co.uk/index.php/Enigma/Paper_Enigma )  
+[Cyber Chef](https://gchq.github.io/CyberChef/)  
+[Spy Museum](https://www.spymuseum.org/)  
 
 
 ## Accommodations Needed
@@ -82,12 +82,21 @@ Online resources are provided for self paced study.
 ## LESSON PREPARATION
 ### General
 Review the "Pringles Can" videos to understand the "Cipher History" module's hands-on exercises  
-[Scytale Video](images/pringlescan-scytale.mp4)  
-[Pringle Can Assembly Video](images/pringlescan-assemble.mp4)  
-[Pringles Can Use Video](images/pringlescan-use.mp4) Caesar, Vigenere, Enigma  
+*Scytale demonstration using a Pringles can*  
+<figure class="video_container">
+  <iframe src="images/pringlescan-scytale.mp4" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+*How to assemble a Pringles can Enigma machine*  
+<figure class="video_container">
+  <iframe src="images/pringlescan-assemble.mp4" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+*Demonstration of Caesar, Vigenere, and Enigma*  
+<figure class="video_container">
+  <iframe src="images/pringlescan-use.mp4" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
-Review/Personalize [Lesson slides](CipherHistory-LectureSlides.pdf)
-DX-TBD
+Review/Personalize [Lesson slides](images/CipherHistory-LectureSlides.pdf)
+## DX-TBD related links
 
 ### SOFTWARE TBD
 ## LESSON 
