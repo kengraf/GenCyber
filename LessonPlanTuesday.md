@@ -92,7 +92,7 @@ Review the "Pringles Can" videos to understand the "Cipher History" module's han
   </video>
 </figure>
 
-*How to assemble a Pringles can Enigma machine*  
+*How to assemble a Pringles can Enigma machine*  [video](images/pringlescan-assemble.mp4)
 
 <iframe src="images/pringlescan-assemble.mp4" frameborder="0" allowfullscreen="true"> </iframe>
 
