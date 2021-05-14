@@ -16,7 +16,8 @@ Lesson: Substitution.		The hands-on exercies uses the Caesar cipher.
 Lesson: Frequency Analysis. 	The hands-on exercies uses Civil War messages encoded with the Vigenère cipher.
 Lesson: Compound.		The hands-on exercies uses the Pringle can Enigma exercise.
 *"Modern Cryptography" module*
-DX:TBD
+## DX:TBD lesson titles
+
 lesson (AES, RSA) 
 
 ## Applicable First Principles and Concepts
@@ -58,7 +59,7 @@ lesson (AES, RSA)
 [Pringles Enigma lab](http://wiki.franklinheath.co.uk/index.php/Enigma/Paper_Enigma )  
 [Cyber Chef](https://gchq.github.io/CyberChef/)  
 [Spy Museum](https://www.spymuseum.org/)  
-
+## DX:TBD related links
 
 ## Accommodations Needed
 Special technical setup may be needed for students who are visually or physically impaired to use the
@@ -83,20 +84,26 @@ Online resources are provided for self paced study.
 ### General
 Review the "Pringles Can" videos to understand the "Cipher History" module's hands-on exercises  
 *Scytale demonstration using a Pringles can*  
+<!-- blank line -->
 <figure class="video_container">
   <iframe src="images/pringlescan-scytale.mp4" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
+<!-- blank line -->
 *How to assemble a Pringles can Enigma machine*  
+<!-- blank line -->
 <figure class="video_container">
   <iframe src="images/pringlescan-assemble.mp4" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
+<!-- blank line -->
 *Demonstration of Caesar, Vigenere, and Enigma*  
+<!-- blank line -->
 <figure class="video_container">
   <iframe src="images/pringlescan-use.mp4" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
+<!-- blank line -->
 
-Review/Personalize [Lesson slides](images/CipherHistory-LectureSlides.pdf)
-## DX-TBD related links
+Review/Personalize the lecture [Link to lesson slides](images/CipherHistory-LectureSlides.pdf)
+## DX:TBD related content
 
 ### SOFTWARE TBD
 ## LESSON 
