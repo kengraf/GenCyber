@@ -94,9 +94,7 @@ Review the "Pringles Can" videos to understand the "Cipher History" module's han
 
 *How to assemble a Pringles can Enigma machine*  
 
-<figure class="video_container">
-  <iframe src="images/pringlescan-assemble.mp4" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
+<iframe src="images/pringlescan-assemble.mp4" frameborder="0" allowfullscreen="true"> </iframe>
 
 *Demonstration of Caesar, Vigenere, and Enigma*  
 
