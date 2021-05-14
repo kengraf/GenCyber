@@ -85,20 +85,146 @@ Online resources are provided for self paced study.
 Review the "Pringles Can" videos to understand the "Cipher History" module's hands-on exercises  
 
 *Scytale demonstration using a Pringles can*
-<a href="https://youtu.be/XBv6A2w3lz4" target="_blank">YouTube video</a>
+[YouTube video](https://youtu.be/XBv6A2w3lz4)
 
 *How to assemble a Pringles can Enigma machine*
-<a href="https://youtu.be/qemkHa7ozw4" target="_blank">YouTube video</a>
+[YouTube video](https://youtu.be/qemkHa7ozw4)
 
 *Demonstration of Caesar, Vigenere, and Enigma*
-<a href="https://youtu.be/DHilx3lxoBo" target="_blank">YouTube video</a>
-[YouTube video](https://youtu.be/DHilx3lxoBo){:target="_blank"}  
+[YouTube video](https://youtu.be/DHilx3lxoBo)  
+
 Review/Personalize the lecture [Link to lesson slides](images/CipherHistory-LectureSlides.pdf)
 ## DX:TBD related content
 
 ### SOFTWARE TBD
 ## LESSON 
-### Module 1: TBD, repeat for each module
-TBD
+### Cipher History: Scytale Lesson
+Points to be stressed during the lesson
+- Transposition is just rearranging letters
+- The transposition needs to be reversable, not random
+- Easy to decode once the process is known
+- Encrypted text has periods based on the circumference of the "rod"
+
+Discussion: Would any of the following *tricks* make deciphering harder?
+- Writing along the seams
+- Spacing
+- Font size
+- Doubling/Tripling up letters
+- Orientation of writing
+- Very thin strip on a smaller "rod"
+
+Instructions for hands on exercise
+- Demostrate the process
+- Use your camp introduction story as the message
+- Smaller letters and tighter spacing will allow a long message
+- Allow 15 minutes
+
+Bonus work: A second message for students that finish quickly
+- Use the back of ribbon
+- Using a different sized "rod"
+- Use a difference writing style: spacing, seams, orientation
+
+Wrap up
+- Stress transposition
+- Can you decipher the message without the Pringles can?
+- Tonight ask a family member to try decrypting
+
+### Cipher History: Caesar Lesson
+Points to be stressed during the lesson
+- Subsitution, changing the values of the characters
+- The process needs to be reversable
+- The *key* is set once for the entire message
+- Code wheels make the encrypting/decrypting process easier 
+
+Discussion: Would any of the following *tricks* make deciphering harder?
+- Encrypting only every other letter or words
+- No spacing between words
+- Adding a transposition 
+
+Instructions for hands on exercise
+- Assemble Pringles can (Order of rotors is critical)
+- Allow 10 Minutes
+- Demostrate (Dog/Cat)
+- Post message for the class to decrypt in chat: "Hashulhqfh lv wkh whdfkhu ri doo wklqjv"
+- Remind that encrypted "D" is plain text "A"
+- Allow 10 minutes
+- Each student picks thier own key, encrypt the name of their favorite movie and copy the encryption to their Discord channel
+- Copy encrypted message into their channel
+- Allow 10 minutes
+
+Bonus work: A second message for students that finish quickly
+- Use "Phq zloolqjob eholhyh zkdw wkhb zlvk"
+- Encrypt a short message and copy to your Discord channel
+
+Wrap up
+- Stress subsitution changes values in a reversable manner
+- Analyzing words and letter groups can decover the key 
+
+### Cipher History: Vigenere Lesson
+Points to be stressed during the lesson
+- A "keyed" subsitution cipher
+- The Caesar cipher with the offset changing for every letter
+- Considered unbreakable until mid 1800's
+- Short keywords lead to repetition in the cipher text  
+- Guess a plain text word you can determine part of the key phrase
+
+Discussion: Civil War messages
+- Many messages using an agreed upon key phrase
+- Words were often purposely misspelled, partial, or phonetic
+
+Instructions for hands on exercise: 
+- Decrypt: "UNIEK- CXNKVNED JJTRRK- ISLX- KFYHJEER-"
+- Here’s how to crack this code–we will start you out with the first two letters then you do the rest: 
+1. Set Ring I.  The "A" on Input/Output rotor should match the first letter in your key word, which is the letter M or (period 1).
+2. On Ring I find the first letter in your enciphered message (the letter U)
+3.  Read the letter on Input/Output: (the letter I)
+4. Repeat steps 1-3.  2nd letter of key with 2nd letter of cypher.  FYI: whenever there is an "A" in the key the cypher text and plain text are the same!  After using the last letter in the key go back to the 1st in the key continue until you run out of cipher text.
+It might help to make a table or spreadsheet to keep things organized.
+| Key |	M	| A	| N	| E	| H	| E	| S	| T	| A	| R	| B	| L	| U	| F	| F	| M	| A	| N	| E	| H	| E	| S	| T |
+| === | = | = | = | = | = | = | = | = | = | = | = | = | = | = | = | = | = | = | = | = | = | = | = |
+| Cipher | U | N | I | E | K | = | = | = | = | = | = | = | = | = | = | = | = | = | = | = | = | = | = |
+| Plain | I | N | = | = | = | = | = | = | = | = | = | = | = | = | = | = | = | = | = | = | = | = | = |
+
+- What to do with the hyphens?  Decoding hyphens can be tricky.
+- Hyphens are sometimes used as a placeholder for a letter that the reader could just guess.
+- Sometimes a hyphen is used to throw off the letter count for anyone trying to break the cipher.
+- Simple rule: If you have a complete word when you get to the hyphen in the cipher, just ignore the hyphen.  If the hyphen is needed to complete the word, skip the current key letter and fill in the word with your guess.
+
+Allow 30 minutes
+
+Bonus work: A second message for students that finish quickly
+- Bonus messages: From Jefferson Davis 11 April, 1865  Code: "COME RETRIBUTION"
+A scout reports that Genl Lee uidvvswvzfx mqs egaziox hw pjm tzat near to appomattox Courthouse yesterday. 
+- Second bonus example: [Vicksburg Secret](https://owlcation.com/humanities/1863-Siege-of-Vicksburg-Secret-Message-Decoded)
+
+Wrap up
+- Short and reused keywords lead to compromise
+- Military operations use a limited vocabulary 
+- Transmission of random letters via telegraph is error prone
+
+
+### Cipher History: Enigma Lesson
+Points to be stressed during the lesson
+- A "keyed" subsitution cipher
+- The Caesar cipher with the offset changing for every letter
+- Considered unbreakable until mid 1800's
+- Short keywords lead to repetition in the cipher text
+
+Discussion: Would any of the following *tricks* make deciphering harder?
+- Writing 
+
+Instructions for hands on exercise
+- Demostrate
+- Allow 15 minutes
+
+Bonus work: A second message for students that finish quickly
+- Use 
+
+Wrap up
+- Stress 
+
+
+## DX:TBD lessons detail
+
 ### Questions/Concerns/Suggestions/Bugs
 Please post issues to the [GitHub page](https://github/kengraf/GenCyber)
