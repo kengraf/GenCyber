@@ -179,7 +179,7 @@ Instructions for hands on exercise:
 2. On Ring I find the first letter in your enciphered message (the letter U)
 3.  Read the letter on Input/Output: (the letter I)
 4. Repeat steps 1-3.  2nd letter of key with 2nd letter of cypher.  FYI: whenever there is an "A" in the key the cypher text and plain text are the same!  After using the last letter in the key go back to the 1st in the key continue until you run out of cipher text.
-It might help to make a table or spreadsheet to keep things organized.
+It might help to make a table or spreadsheet to keep things organized.  
 | Key   |	M	| A	| N	| E	| H	| E	| S	| T	| A	| R	| B	| L	| U	| F	| F	| M	| A	| N	| E	| H	| E	| S	| T |  
 | ----- | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - |   
 | Cipher | U | N | I | E | K | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - |  
