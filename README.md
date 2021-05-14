@@ -8,7 +8,7 @@ Afternoon 1:  Social CTF for an ice breaker, using the [GenCyberCoin](https://gi
 Afternoon 2: Lecture on web application security using Hacksplaining.  
 Afternoon 3: Use lessons learned with the GenCyberCoin game.  
 
-## Tuesday: “A history of secrets”
+## Tuesday: “A history of secrets” [Lesson Plan](./LessonPlanTuesday.md)
 Morning 1: Cryptography history lessons (Caesar, Vigenere, Enigma)  
 Morning 2: Hands-on based on Pringles can [Enigma](https://cyber.org/enigma).   
 Afternoon 1: Modern cryptography lesson (AES, RSA)  
