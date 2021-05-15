@@ -96,7 +96,8 @@ Review the "Pringles Can" videos to understand the "Cipher History" module's han
 Review/Personalize the lecture [Link to lesson slides](images/CipherHistory-LectureSlides.pdf)
 ## DX:TBD related content
 
-### SOFTWARE TBD
+### SOFTWARE
+This lesson uses only online based resources, no software installs are required.
 ## LESSON 
 ### Cipher History: Scytale Lesson
 Points to be stressed during the lesson
