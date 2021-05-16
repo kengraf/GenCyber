@@ -13,7 +13,8 @@ The lesson has four (4) modules. Each module starts with a brief (15 minute) ove
 *Module 1: Intro to Linux command line*  
 This lesson is based on excerpts from "The Linux Command Line" 2nd edition by William Shotts. 
 *Module 2: Using a railfence cipher*  
-TBD
+Use the Railfence cipher to encrypt messages that we can shared with other students for them to decrypt.
+If you don't know what a Railfence cipher is, check out the [Wikipedia page for Railfence Cipher](https://en.wikipedia.org/wiki/Rail_fence_cipher)
 *Module 3: Image based steganography*  
 TBD
 *Module 4: TOTP (GoogleAuthenicator like) tokens*  
@@ -399,7 +400,7 @@ john --wordlist=/usr/share/wordlists/rockyou.txt --format=Raw-MD5 hashes
 more ~/.john/john.pot
 ```
 Which passwords did John find?
-
+```
 
 
 ## Extra credit 
@@ -418,16 +419,21 @@ Bonus work: Use SSH keys to login
 
 ### Module 2: Using a railfence cipher
 Points to be stressed during the lesson
-- 
+- Railfence is sometimes called a zig-zag cipher
+- Jupyter notebooks present a set of cells.  The cells should be executed in sequencial order.
 
-Discussion: Would any of the following *tricks* make deciphering harder?
-- 
+Discussion: Consider the "math"?
+- What are the minimum and maximum number of rails?
+- What is the largest effective offset?
+- How many attempts would a brute force require?
 
 Instructions for hands on exercise
-- 
+- Using a railfence cipher [Binder](https://mybinder.org/v2/gh/kengraf/Railfence/HEAD)
+- The startup of Binder.org takes a minute or so to establish an IPython environment.
+- To start he lesson click on the lesson link "LESSON.ipynb".
+- Feel free to play/alter the steps in the lesson.
+- You will be working in your own temporary sandbox, so you can not damage the original lesson.
 
-Bonus work: A second message for students that finish quickly
--
 Lesson text
 # Railfence Lesson
 In this lesson we use the Railfence cipher to encrypt messages that we can shared with other students form them to decrypt.  
@@ -453,21 +459,7 @@ The railfence.py module is located in this repository so locating it is pretty e
 # Any errors later in the lesson will have similar output
 import icalledthismodulemoonbeam
 ```
-
-
-    ---------------------------------------------------------------------------
-
-    ModuleNotFoundError                       Traceback (most recent call last)
-
-    <ipython-input-2-6909695b8e3b> in <module>
-          1 # Run this module to see what happens when a module can't be located
-          2 # Any errors later in the lesson will have similar output
-    ----> 3 import icalledthismodulemoonbeam
-    
-
-    ModuleNotFoundError: No module named 'icalledthismodulemoonbeam'
-
-
+ModuleNotFoundError: No module named 'icalledthismodulemoonbeam'
 
 ```python
 # When you run this cell it will encrypt an origial message and display your secret message.
@@ -477,8 +469,7 @@ secretMessage = railfence.encrypt(originalMessage)
 print(secretMessage)
 ```
 
-    Plaonspi,tdonv  . nepesyntigi mosbe u  ontigeeydy-A .Mleo  h islbI h ra Ai
-
+Plaonspi,tdonv  . nepesyntigi mosbe u  ontigeeydy-A .Mleo  h islbI h ra Ai
 
 
 ```python
@@ -488,7 +479,7 @@ solvedMessage = railfence.decrypt(secretMessage)
 print(solvedMessage)
 ```
 
-    People say nothing is impossible, but I do nothing every day - A. A. Milne
+   People say nothing is impossible, but I do nothing every day - A. A. Milne
 
 
 
@@ -501,10 +492,10 @@ else:
     print("Oh, no?!")
 ```
 
-    Solved.  Good job!
+Solved.  Good job!
 
 
-##  it is your turn, secret #1
+##  iI is your turn, secret #1
 1) Change the original  message and rerun the cell to generate a new secret message.  
 2) Post the secret message to your Discord channel as secret message #1.  
 3) Copy the secret message from another camper's channel.  
@@ -634,6 +625,8 @@ Then try to match the words in the dictionary  to the words in your maybeSolutio
 Extra-extra credit: For really large messages or dictionaries you may want to consider sorting the wordlists to be computationally efficient.
 
 Wrap up
+- Clone the repo: git clone https://github.com/kengraf/Railfence.git
+- Web enable railfence.py
 - 
 ### Module 3: Image based steganography
 Points to be stressed during the lesson
