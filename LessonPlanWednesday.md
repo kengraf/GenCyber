@@ -2,7 +2,7 @@
 Introduction to Linux security and Python based security programming.
 
 ## Lesson Description
-TBD
+Four (4) lessons based on interactive IPython notebooks.  The first lesson covers basic Linux security concepts.  The remaining lessons use Python to investigate steganography, ciphers, and authnetication tokens.
 
 ### Prerequisite Knowledge
 Students should have a basic understanding of how to use a web browser and be able to engage using remote meeting tools.
@@ -87,6 +87,12 @@ Online resources are provided for self-paced study.
 Students need accounts setup on kali.cyber-unh.org  
 Initial password is "CHANGE.me", which must be changed on first login
 
+All lessons use Jupyter notebooks based on IPython and can launced from [Github](https://github.com/kengraf/GenCyber)
+The startup of Binder.org takes a minute or so to establish an IPython environment.
+To start he lesson click on the lesson link "LESSON.ipynb".
+Feel free to play/alter the steps in the lesson.
+You will be working in your own temporary sandbox, so you can not damage the original lesson.
+
 ### SOFTWARE
 This lessons uses online resources.  The only software install is a browser extension (Chromebooks only).
 [Secure Shell extension in Google Store](https://chrome.google.com/webstore/detail/secure-shell/iodihamcpbpeioajjeobimgagajmlibd)  
@@ -147,7 +153,7 @@ While using history can be convenient, you need to remember that if you type pas
 - `cd` Change directory  
 - `ls` List directory contents  
 
-Try the follwoing commands from the book
+Try the following commands from the book
 ```
 pwd
 ls
@@ -422,6 +428,210 @@ Instructions for hands on exercise
 
 Bonus work: A second message for students that finish quickly
 -
+Lesson text
+# Railfence Lesson
+In this lesson we use the Railfence cipher to encrypt messages that we can shared with other students form them to decrypt.  
+If you don't know what a Railfence cipher is, check out the Wikipedia page. 
+[Wikipedia page for Railfence Cipher](https://en.wikipedia.org/wiki/Rail_fence_cipher)
+
+
+```python
+# Run this cell first.  As it initializes the python module
+# containing the functions this lesson requires
+
+import railfence
+```
+
+Didn't see anything happen? Good!  
+  
+That means the python runtime located and loaded the module.  
+The railfence.py module is located in this repository so locating it is pretty easy for the runtime.
+
+
+```python
+# Run this module to see what happens when a module can't be located
+# Any errors later in the lesson will have similar output
+import icalledthismodulemoonbeam
+```
+
+
+    ---------------------------------------------------------------------------
+
+    ModuleNotFoundError                       Traceback (most recent call last)
+
+    <ipython-input-2-6909695b8e3b> in <module>
+          1 # Run this module to see what happens when a module can't be located
+          2 # Any errors later in the lesson will have similar output
+    ----> 3 import icalledthismodulemoonbeam
+    
+
+    ModuleNotFoundError: No module named 'icalledthismodulemoonbeam'
+
+
+
+```python
+# When you run this cell it will encrypt an origial message and display your secret message.
+
+originalMessage = "People say nothing is impossible, but I do nothing every day - A. A. Milne"
+secretMessage = railfence.encrypt(originalMessage)
+print(secretMessage)
+```
+
+    Plaonspi,tdonv  . nepesyntigi mosbe u  ontigeeydy-A .Mleo  h islbI h ra Ai
+
+
+
+```python
+# Then it decrypt the secret message returning a solved message.
+
+solvedMessage = railfence.decrypt(secretMessage)
+print(solvedMessage)
+```
+
+    People say nothing is impossible, but I do nothing every day - A. A. Milne
+
+
+
+```python
+# We can now test to compare the original message with the solved message.
+
+if(originalMessage == solvedMessage):
+    print( "Solved.  Good job!")
+else:
+    print("Oh, no?!")
+```
+
+    Solved.  Good job!
+
+
+##  it is your turn, secret #1
+1) Change the original  message and rerun the cell to generate a new secret message.  
+2) Post the secret message to your Discord channel as secret message #1.  
+3) Copy the secret message from another camper's channel.  
+4) Decrypt the secret message.  
+5) Does the solved message look correct?  
+
+
+```python
+# add your fun quote or message to the string
+
+originalMessage = "" 
+print( railfence.encrypt(originalMessage) )
+```
+
+    
+
+
+
+```python
+# Paste a secret from someone
+# does the output make sense?
+
+secretMessage = "" 
+print(railfence.decrypt(secretMessage))
+```
+
+    
+
+
+## Changing the number of rails, secret #2
+Railfences can have different numbers of rails.  
+So far you have used the module's default value of 3 rails.  
+
+Let's do a other sharing experiment this time picking the number of rails.
+
+
+```python
+# Change the number of rails (use a value less than 8 and not 3)
+railCount = 3
+print( railfence.encrypt(originalMessage, railCount) )
+```
+
+    
+
+
+
+```python
+secretMessage = "" # add the secret in the quotes
+railCount = 3 # You may need to make a few guesses (2-7), because you don't know the actual number
+print(railfence.decrypt(secretMessage, railCount))
+```
+
+    
+
+
+## Starting on a different rail, secret #3
+You start anywhere in a rail cycle.
+So far, we have using the default value of starting on the first rail (offset = 0)
+
+Same sharing process as before, this time changing the offset.
+
+
+```python
+offset = 0 # Change the offset to something not zero
+print( railfence.encrypt(originalMessage, 3, offset) )
+```
+
+    
+
+
+
+```python
+secretMessage = "" # add the secret in the quotes
+offset = 0 # You will need to make a few guesses, because you don't know the actual number
+print(railfence.decrypt(secretMessage, 3, offset))
+```
+
+    
+
+
+## Making it harder, secret #4
+This last share we are going to try harder on humans to decrypt the message.
+
+Pick both the number of rails and an offset.  Even for single digit values you are creating dozens of possibilities.
+
+
+```python
+railCount = 0 # Change the value
+offset = 0 # Change the value
+print( railfence.encrypt(originalMessage, railCount, offset) )
+```
+
+    
+
+
+
+```python
+secretMessage = "" # add the secret in the quotes
+railCount = 0 # You will need to make a few guesses
+offset = 0 # even more guesses
+print(railfence.decrypt(secretMessage, railCount, offset))
+```
+
+    
+
+
+## Let the computer do the iterations for you
+
+
+```python
+secretMessage = "" # add the secret in the quotes
+
+for railCount in range(2, len(secretMessage)//2):
+    cycleSize = railCount + railCount - 2
+    for offset in range(0, cycleSize):
+        maybeSolution = railfence.decrypt(secretMessage, railCount, offset)
+        print("Rails=%d, Offset=%d, maybe=%s" % (railCount, offset, maybeSolution ))
+```
+
+## Extra credit, have the computer pick the best solution
+What if you scored every maybeSolution for the number of actual words it contains?  
+Then only print the best solution, rather than showing all iterations?
+
+You would need to load a dictionary of words [Google's 10,000 most common](https://github.com/first20hours/google-10000-english)
+Then try to match the words in the dictionary  to the words in your maybeSolution.
+
+Extra-extra credit: For really large messages or dictionaries you may want to consider sorting the wordlists to be computationally efficient.
 
 Wrap up
 - 
