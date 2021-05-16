@@ -10,15 +10,16 @@ Students should have a basic understanding of how to use a web browser and be ab
 ### Length of Completion
 The lesson has four (4) modules. Each module starts with a brief (15 minute) overview to provide context, instructions, and goals for the students.  Students typically complete each module in 60-90 minutes.  These lessons are based on IPython and use BinderHub and JupyterHub to create interactive environments. The modules have the following sequence.  
 
-*Module 1: Intro to Linux command line*  
-This lesson is based on excerpts from "The Linux Command Line" 2nd edition by William Shotts. 
-*Module 2: Using a railfence cipher*  
-Use the Railfence cipher to encrypt messages that we can shared with other students for them to decrypt.
+*Module 1: [Intro to Linux command line](https://github.com/kengraf/LinuxCommand)*  
+This lesson is based on excerpts from "The Linux Command Line" 2nd edition by William Shotts.  
+*Module 2: [Using a railfence cipher](https://github.com/kengraf/Railfence)*   
+Use the Railfence cipher to encrypt messages that we can shared with other students for them to decrypt.  
 If you don't know what a Railfence cipher is, check out the [Wikipedia page for Railfence Cipher](https://en.wikipedia.org/wiki/Rail_fence_cipher)
-*Module 3: Image based steganography*  
-TBD
-*Module 4: TOTP (GoogleAuthenicator like) tokens*  
-TBD
+*Module 3: [Image based steganography](https://github.com/kengraf/Steganography)*   
+Camp lesson on pyton programming using image based stenanogrpahy.  
+*Module 4: [TOTP (GoogleAuthenicator like) tokens](https://github.com/kengraf/TOTP)*    
+Python OTP example that works with Google Authenticator.  
+Basic functions to generate and validate TOTP and HOTP codes.
 ### Level of Instruction
 The lesson is intended for high school learners (beginner and intermediate levels)
 
@@ -625,9 +626,9 @@ Then try to match the words in the dictionary  to the words in your maybeSolutio
 Extra-extra credit: For really large messages or dictionaries you may want to consider sorting the wordlists to be computationally efficient.
 
 Wrap up
-- Clone the repo: git clone https://github.com/kengraf/Railfence.git
-- Web enable railfence.py
-- 
+- Clone the repo: git clone https://github.com/kengraf/Railfence.git  
+- Web enable railfence.py  
+
 ### Module 3: Image based steganography
 Points to be stressed during the lesson
 - 
@@ -636,13 +637,18 @@ Discussion: Would any of the following *tricks* make deciphering harder?
 - 
 
 Instructions for hands on exercise
-- 
+- Camp lesson on pyton programming using image based stenanogrpahy.  
+- The audience isn't expected to be programming or security knowledgeable.
+- How to use image based steganogrpahy [Binder](https://mybinder.org/v2/gh/kengraf/Steganography/HEAD)  
+- The startup of Binder.org takes a minute or so to establish an IPython environment.  
+- To start he lesson click on the lesson link ".ipynb".   
+- Feel free to play/alter the steps in the lesson. You will be working a temporary sandbox, so can not damage the original lesson.  
 
-Bonus work: A second message for students that finish quickly
--
+Bonus work:
+- Post messages in your channel for other students to use.
+- Clone the repo: git clone https://github.com/kengraf/Steganogrpahy.git  
+- Web enable steganography.py  
 
-Wrap up
-- 
 
 ### Module 4: TOTP (GoogleAuthenicator like) tokens
 
@@ -653,13 +659,17 @@ Discussion: Would any of the following *tricks* make deciphering harder?
 - 
 
 Instructions for hands on exercise
-- 
+- Camp lesson on pyton programming using image based stenanogrpahy.  
+- The audience isn't expected to be programming or security knowledgeable.
+- How to use image based steganogrpahy [Binder](https://mybinder.org/v2/gh/kengraf/TOTP/HEAD)  
+- The startup of Binder.org takes a minute or so to establish an IPython environment.  
+- To start he lesson click on the lesson link ".ipynb".   
+- Feel free to play/alter the steps in the lesson. You will be working a temporary sandbox, so can not damage the original lesson.  
 
-Bonus work: A second message for students that finish quickly
--
-
-Wrap up
-- 
+Bonus work:
+- Post messages in your channel for other students to use.
+- Clone the repo: git clone https://github.com/kengraf/Steganogrpahy.git  
+- Web enable steganography.py  
 
 ### Questions/Concerns/Suggestions/Bugs
 Please post issues to the [GitHub page](https://github/kengraf/GenCyber)
