@@ -788,25 +788,243 @@ Bonus work:
 
 
 ### Module 4: TOTP (GoogleAuthenicator like) tokens
+Python OTP example that works like Google Authenticator.  
+Basic functions to generate and validate TOTP and HOTP codes.  
+OATH tokens have two implementations:  
+- Time based [TOTP](https://en.wikipedia.org/wiki/Time-based_One-Time_Password)  
+- HMAC based [HOTP](https://en.wikipedia.org/wiki/HMAC-based_One-Time_Password)  
+Google Authenticator is a popular example of web sites using OATH as an alternative to passwords.  
 
 Points to be stressed during the lesson
-- 
+- Differences between TOTP and HOTP
+- How to address HOTP counter sync issues
+- How to address TOTP time sync issues
 
-Discussion: Would any of the following *tricks* make deciphering harder?
-- 
+Discussion: Breaking OTP codes
+= The code is 6 digits, can it be brute forced?
+- If you know the code can you deduce the shared secret?
 
 Instructions for hands on exercise
-- Camp lesson on pyton programming using image based stenanogrpahy.  
+- Camp lesson on pyton programming using OATH tokens.  
 - The audience isn't expected to be programming or security knowledgeable.
 - How to use image based steganogrpahy [Binder](https://mybinder.org/v2/gh/kengraf/TOTP/HEAD)  
 - The startup of Binder.org takes a minute or so to establish an IPython environment.  
 - To start he lesson click on the lesson link ".ipynb".   
 - Feel free to play/alter the steps in the lesson. You will be working a temporary sandbox, so can not damage the original lesson.  
 
+#### Lesson #1 Registration of a user's secret
+
+
+```python
+# The secret has a special format of 16 [base32](https://en.wikipedia.org/wiki/Base32) 'digits'
+# generateSecret will create a properly formatted random secret
+
+import google_authenticator as ga
+
+print( "Secret1= %s" % ga.generateSecret())
+print( "Secret2= %s" % ga.generateSecret())
+print( "Secret3= %s" % ga.generateSecret())
+
+```
+
+    Secret1= QZLOPHV2N2SZPXNH
+    Secret2= HTWP2SCT363IKCEP
+    Secret3= IUGDKBXX6DZ7GTSS
+
+
+
+```python
+import google_authenticator as ga
+
+secret = ga.generateSecret()
+name = 'yourname'
+ga.registerUser({'name':name,'secret':secret})
+print("Registered %s, secret= %s" % (name, secret))
+
+topt = ga.currentTOTP(name)
+print("Validate topt= %s" % ga.validateTOTP({'name':name,'code':topt}))
+   
+
+```
+
+    Registered yourname, secret= ZAQJIWFDJIKFP26S
+    Validate topt= Validated
+
+
+#### Lesson #2 TOTP codes expire after 30 seconds
+
+
+```python
+# This code snipet shows how token code rollover every 30 seconds
+# Old codes will not validate, this reduces the concern about them being stolen
+
+import google_authenticator as ga
+
+topt = ga.currentTOTP(name)
+print("Current code= %s" % topt)
+print("Validate topt= %s" % ga.validateTOTP({'name':name,'code':topt}))
+
+# This will show the current code, then wait for the next time interval
+ga.rolloverTOTP(name)
+   
+
+# The first code is now invalid
+print("Validate %s= %s" % (topt,ga.validateTOTP({'name':name,'code':topt})))
+
+```
+
+    Current code= 577023
+    Validate topt= Validated
+    code=577023 seconds to rollover=29
+    code=461670
+    Validate 577023= Failed
+
+
+ #### Lesson #3 HOTP codes are only valid once
+
+
+```python
+# This code snipet shows how HOTP code becomes invalid after one use
+# Unlike TOTP codes that are based on a secret and the time
+# HOTP codes are based on a secret and a counter.
+# Everytime a code is validated the counter is incremented, thus invalidating 
+# previous codes.  The TOTP method generally preferred because it avoids
+# issues caused by the client and server counters getting out of sync.
+
+import google_authenticator as ga
+
+# google_authenitcator module maintains the counter as a variable
+print('HOTP counter= %d' % ga.HOTP_COUNTER)
+
+hopt = ga.currentHOTP(name)
+print("Current code= %s" % hopt)
+print("Validate %s= %s" % (hopt,ga.validateHOTP({'name':name,'code':hopt})))
+
+# The first code is now invalid
+print('HOTP counter= %d' % ga.HOTP_COUNTER)
+print("Validate %s= %s" % (hopt,ga.validateHOTP({'name':name,'code':hopt})))
+
+```
+
+    HOTP counter= 123456
+    Current code= 641027
+    Validate 641027= Validated
+    HOTP counter= 123457
+    Validate 641027= Failed
+
+
+
+```python
+# Most HOTP implementations allow for a small of counters to be valid
+# because the client increments when it generates a code
+# and the server increments when it recieves.  Unsend codes and 
+# communication failures will unsync the clinet/server counters
+# This module uses a sync range of 10
+
+import google_authenticator as ga
+
+# Current counter and code
+print('HOTP counter= %d' % ga.HOTP_COUNTER)
+hopt = ga.currentHOTP(name)
+print("Current code= %s" % hopt)
+print("Validate %s= %s" % (hopt,ga.validateHOTP({'name':name,'code':hopt})))
+
+# Set the server counter back 5, this will still validate
+ga.HOTP_COUNTER -= 5
+print('HOTP counter= %d' % ga.HOTP_COUNTER)
+hopt = ga.currentHOTP(name)
+print("Current code= %s" % hopt)
+print("Validate %s= %s" % (hopt,ga.validateHOTP({'name':name,'code':hopt})))
+
+# Set the server counter back 15, this will not validate
+ga.HOTP_COUNTER -= 15
+print('HOTP counter= %d' % ga.HOTP_COUNTER)
+hopt = ga.currentHOTP(name)
+print("Current code= %s" % hopt)
+print("Validate %s= %s" % (hopt,ga.validateHOTP({'name':name,'code':hopt})))
+
+
+```
+
+    HOTP counter= 123457
+    Current code= 285344
+    Validate 285344= Validated
+    HOTP counter= 123453
+    Current code= 831992
+    Validate 831992= Validated
+    HOTP counter= 123439
+    Current code= 010268
+    Validate 010268= Validated
+
+
+#### Lesson #4 Sending TOTP and HOTP tokens to a website
+
+In this lesson you will register a secret for your name and experiment with sending OATH tokens.  
+
+A simple OATH server is running on [kali.cyber-unh.org](http://kali.cyber-unh.org:8080/)  
+The new tab you just loaded will look something like this: ![](TOTP-server.png)
+
+#### Step 1: Register your name and secret
+
+Enter your name and click "registerUser", optionally you can replace the secret
+with one you generated earlier in this lesson.  This is the same as using the follwoing URL:
+http://kali.cyber-unh.org/registerUser?name=[yourname]?secret=[yoursecret]  
+
+You will see a confirmation of your secret.
+
+#### Step 2: Submit a TOTP token
+Show your tokens: http://kali.cyber-unh.org:8080/name=[yourname]
+Notice how many seconds your TOTP token is good for.  It will never be more than 30 seconds.
+On the "Validate TOTP for user" line.  Enter your name and current TOTP token, click "validate TOTP"
+
+If you clicked before time ran out you will "Validated"  if not "Failed".
+You can use the back arrow and refresh to get a new token if you failed.  What is the minimum number of
+seconds you need to complete the form before the token expires?
+
+#### Step 3: Submit a HOTP token
+Again show your tokens: http://kali.cyber-unh.org:8080/name=[yourname]
+HOTP tokens are not time sensitive but are limited to a single use.
+
+On the "Validate HOTP for user" line.  Enter your name and current HOTP token, click "validate HOTP"
+You should see "Validated"
+Go back, and enter the same again, click "Validate HOTP"
+This time it will fail.
+
+#### Extra credit: Create your own OATH server
+Copy the google_authenticator.py to the Kali machine.
+Modify the code to run on a port that is not 8080.  Only one program can attach to a port at anytime.
+Modify the code tomake to more secure, to be used to handle authenication for an website you own.
+Or just plain play.
+
+#### Extra credit: Google Authenticator
+
+
+```python
+# Google provides an API to generate QR codes to be used with Google Authenticator
+
+import requests
+import IPython.display as Disp
+
+# Experiment by changing the variable settings
+secret = "yoursecret"
+name = "yourname"
+website = "https://yoursite"
+url = "https://chart.googleapis.com/chart?chs=200x200&chld=M|0&cht=qr&chl=" + website + "?name=" + name + "&secret=" + secret;
+
+# Show the QR code
+Disp.Image(requests.get(url).content)
+
+# Result is the website and you now share a secret associated with your name
+```
+
+
+Can you create a QR code that would allow Google Authenticator to validate against [kali](http://kali.cyber-unh.org:8000)?
+
 Bonus work:
-- Post messages in your channel for other students to use.
-- Clone the repo: git clone https://github.com/kengraf/Steganogrpahy.git  
-- Web enable steganography.py  
+- Clone the repo: git clone https://github.com/kengraf/TOTP.git   
+- Web enable google-authenitcator.py  
+- Add user management 
+- Add shared secret generation
 
 ### Questions/Concerns/Suggestions/Bugs
 Please post issues to the [GitHub page](https://github/kengraf/GenCyber)
