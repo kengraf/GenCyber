@@ -15,7 +15,7 @@ Search and Cyberchef knowledge is expected.
 First nations, black hertiage, revolutionary heros, civil war ballonist, cold war, and more.
 All in New Hampshire.
 *Module 2: United States*  
-TBD
+Slave spies, women pioneers, Navajo code, Selma, and more.  
 *Module 3: World*  
 TBD
 ### Level of Instruction
@@ -87,17 +87,211 @@ Instructors should understand how to solve each challenge.
 Instructors shoudl review the recommended hints for each challenge.  
 
 ### SOFTWARE
-No local shotware install is required.
+No local software install is required.
 
 ## LESSON 
 ### Module NH:
 [New Hampshire](https://wlowi.cyber-unh.org/treasuremap.html?region=NH)  
 
+#### Story: Redstone rocket
+[link](https://www.atlasobscura.com/places/redstone-rocket)  
+imageCaption: "Sitting on the village green in the town of Warren, NH, is a Redstone ballistic missle"  
+[url](http://www.cowhampshireblog.com/2006/11/24/the-day-warren-new-hampshire-went-ballistic/)  
+Riddle: "These pairs have something in common.  One is the only in the world, the last has a rocket, what is the first?<div><p class='text-center'>deer, brook <br> dia, aan <br> niker, gos <br>ren, ner <br>  ber, dub <br> and, han <br> bon, hol</p></div>"  
+Hint:  Town/City names that share a slylable  
+Answer: andover  
+
+#### Story: Susannah Willard Johnson  
+[link](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Fort_at_Number_4%2C_view%2C_Charlestown_NH.jpg/320px-Fort_at_Number_4%2C_view%2C_Charlestown_NH.jpg)   
+imageCaption: "Fort #4"  
+[url](https://en.wikipedia.org/wiki/Susannah_Willard_Johnson)  
+Riddle: "She said: 'But in an instant a crowd of savages, fixed horribly for war, rushed furiously in. I screamed and begged my friends to ask for quarter'.  The name of her eldest son is the XOR key you need.<div><p class='text-center'>MhsJGAAFHHk=</p></div>"  
+Hint:   Base53 decode the key, then use Cyberchef XOR  
+Answer: Abenaki    
+
+#### Story: Frost  
+[link](https://www.nhstateparks.org/visit/historic-sites/robert-frost-farm-historic-site)  
+imageCaption: "Robert Frost's simple two-story white clapboard farmhouse is typical of New England in the 1880s"  
+[url](https://www.poetryfoundation.org/poets/robert-frost)  
+Riddle: "<div>3882 3405 5375 3882 5952</div>In a one-part code, the code groups are assigned to the letters, words or phrases that they represent in a logical order - typically, alphabetical order. <br>The above message - which you may find familiar - has been encrypted using a one-part code, in which the code groups 0000 to 9999 represent 10,000 of the commonest English words in alphabetically order<br><a href='https://github.com/first20hours/google-10000-english/blob/master/google-10000-english.txt'>Google 10000 english words</a>"  
+Hint: Find line "word" 3882   
+Answer: good fences make good neighbors  
+
+#### Story: Passaconaway  
+[link](https://www.nhhistory.org/Timeline?id=1676.1)  
+imageCaption: "Sham Battle"  
+[url](http://www.seacoastnh.com/history/as-i-please/tracking-passaconaway/)  
+Riddle: "Rail fences are great for managing livestock, not so good at preventing attacks. Who is the poem about?  FYI: Almost all of the rail fences in the south were consumed by the Confederate army for firewood during the Civil War. Who is the message about?<div><p class='text-center'>Wom  &nbsp&nbspo smiagW &nbspoidthedro<br>tmihh .a faattdfnPokeI a e nhd i horncfrSrn tateinn eehu;A henclc &nbspanfrrg cgAhloiec<br>hnncstns &nbspnv ineao g<br>&nbspuhac irdApddttwnnel n<br>avedeoasnKnu<br>eor na Tdahm.Autbee<br>c dmude.Ema kdrf<br>&nbspln i adi oCu Eoc erwoas tn ie<br>lenh ltdde &nbspuwl so ib&nbsp<br></p></div>"  
+Hint:  Rail fence cipher   
+Answer: kancamagus    
+
+#### Story: General Stark  
+[link](https://en.wikipedia.org/wiki/John_Stark)  
+imageCaption: "Image of John Stark"  
+[url](https://www.battlefields.org/learn/biographies/john-stark)  
+Riddle: "wHiLe oN a huNtiNG anD trapPiNG trip alOng thE bakER rIVer, a tribUTaRy of thE pemigEWasSet river, He wAs caPTUrEd by AbenAkI WarrIOrS And BrOugHt baCH To cAnaDa But nOT bEFore wArniNG hiS brOThEr wIlLiaM to PadDLe Away iN hIs CanoE"  
+Hint: bacon cipher   
+Answer:   Live free or die: Death is not the worst of evils   
+
+#### Story: General Sullivan  
+[link](https://en.wikipedia.org/wiki/John_Sullivan_(general))  
+imageCaption: "John Sullivan (February 17, 1740 – January 23, 1795) was an Irish-American Genera"  
+[url](https://en.wikipedia.org/wiki/John_Sullivan_(general))  
+Riddle: "Which location is most northerly?<div><p class='text-center'>746P+X8 Born<br>37CQ+HX Raided<br>M2G6+2R Captured<br>66CJ+5P Rejoined Washington<br>27W8+4M Expedition<br>43JJ+4W Died</p></div>"  
+Hint:  Google Plus codes   
+Answer:  746P+X8  
+
+#### Story: Lighter than air  
+[link](https://en.wikipedia.org/wiki/Union_Army_Balloon_Corps)  
+imageCaption: "Woodblock sketch of Lowe's balloon"  
+[url](https://en.wikipedia.org/wiki/Thaddeus_S._C._Lowe)  
+Riddle: "Some might have called him: <div><p class='text-center'>66.7.95.53.6 <br>95.68.53.20.7 <br>74.18 <br>75.34.18.6.1 <br>32.28.92.16</p></div>"  
+Hint: Periodic table   
+Answer: DyNAmIC AmErICaN WAr ReSeArCH GeNiUS   
+
+#### Story: Black Heritage Trail  
+[link](https://www.tripadvisor.com/Attraction_Review-g46209-d5961990-Reviews-Portsmouth_Black_Heritage_Trail-Portsmouth_New_Hampshire.html)  
+imageCaption: "Trip Advisor picture"  
+[url](https://www.nhbr.com/black-heritage-trail-uncovers-hidden-history/)  
+Riddle: "Follow the Portsmouth Black Heritage Trail.  Which location does not have a trail marker?<div><p class='text-center'>ducks.stand.drag<br>excuse.factor.chose<br>space.beans.fault<br>truly.honest.onion<br>hello.forced.hoot<br>torch.dusty.precautions<br>spell.puzzle.weds<br>slide.sulk.others<br>action.rich.robot</p></div"  
+Hint:  What 3 words  
+Answer: action.rich.robot    
+
 ### Module US:
 [US](https://wlowi.cyber-unh.org/treasuremap.html?region=US)   
 
+#### Story: Grace Hopper    
+[link](https://developer.ibm.com/blogs/ibm-at-grace-hopper-celebration-of-women-in-computing-2019/)  
+imageCaption: "Celebration of Woman in Computing"  
+[url](https://ghc.anitab.org/programs-and-awards/2020-acm-student-research-competition-winners/)  
+Riddle: "Her work allowed the creation of Cobol.  What is the message this program generates? <div><p class='text-left'>IDENTIFICATION DIVISION.<br>PROGRAM-ID. VARS.<br>DATA DIVISION.<br>WORKING-STORAGE SECTION.<br>01 a PIC X(4) VALUE 'ask'.<br>01 b PIC X(12) VALUE 'forgiveness'.<br>01 c PIC X(7) VALUE 'easier'.<br>01 d PIC X(3) VALUE 'it'.<br>01 e PIC X(3) VALUE 'is'.<br>01 f PIC X(4) VALUE 'get'.<br>01 h PIC X(3) VALUE 'to'.<br>01 i PIC X(10) VALUE 'permission'.<br>01 g PIC X(5) VALUE 'than'.<br> <br>PROCEDURE DIVISION.<br>DISPLAY \"{\"d e c h a b g d e h f i \"}\"<br>STOP RUN.<br></p></div>"  
+Hint: read the code or run a simulator     
+Answer:  {it is easier to ask forgiveness than it is to get permission}     
+
+#### Story: Labyrinths  
+[link](https://commons.wikimedia.org/w/index.php?curid=29661124)  
+imageCaption: "Minotaurus"  
+[url](https://en.wikipedia.org/wiki/Labyrinth)  
+Riddle: "Locate the town/city these labyrinths are located:<div class='text-center'><a href='./images/pumpkin-maze.jpg' target='_blank'>Pumpkin</a><br><a href='./images/pineapple-maze.jpg' target='_blank'>Pineapple</a><br><a href='./images/sod-maze.jpg' target='_blank'>Sod</a><br><a href='./images/Mirror-maze.jpg' target='_blank'>Mirror</a><br><a href='./images/Glass-maze.png' target='_blank'>Glass</a><br><a href='./images/Corn-maze.jpg' target='_blank'>Corn</a><br><a href='./images/Lavender-maze.jpg' target='_blank'>Lavender</a><br><br><div> The answer is the names of towns/cities (without state) listed alphabetically"  
+Hint: google the images   
+Answer:  dixon kansas city mears minneapolis newport sterling wahiawa     
+
+#### Story: Selma    
+[link](https://www.nbcnews.com/news/nbcblk/selma-montgomery-5-things-you-may-not-know-about-bloody-n729276)  
+imageCaption: "Police break up voting rights march in Selma"  
+[url](https://www.legacy.com/news/culture-and-history/the-lives-martin-luther-king-touched/)  
+Riddle: "Hidden in these picture is a quote from Martin Luther King, Jr. <div class='text-center'><br><a href='./images/Selma_3.png' target='_blank'>Amelia Boynton</a><br><a href='./images/Selma_2.png' target='_blank'>Federal Marshal</a><br><a href='./images/Selma_1.png' target='_blank'>Montgomery</a><br><a href='./images/Selma_4.png' target='_blank'>Police beatings</a><br><br> Can you find and put the pieces together?"  
+Hint: Use yesterday's tool   
+Answer: The end we seek is a society at peace with itself, a society that can live with its conscience. And that will be a day not of the white man, not of the black man. That will be the day of man as man.    
+
+#### Story: John Jay - YESCA code     
+[link](https://exhibitions.library.columbia.edu/exhibits/show/john_jay/diplomacy-4)  
+imageCaption: "John Jay's YESCA code"  
+[url](https://exhibitions.library.columbia.edu/exhibits/show/john_jay/in-service-to-the-new-nation--)  
+Riddle: "Find the papers archive of America's 1st Chief Justice. The library maintains an online exhibition.  Find cypher code page  (Diplomacy section, YESCA code).  Decode this message: 34 23 17 12: 26 23' 15 7 4 2 21. 16  27"  
+Hint: follow the code   
+Answer: spain will not help america       
+
+#### Story: Navajo code talkers    
+[link](https://www.youtube.com/watch?v=QmiqnAQTTCI)  
+imageCaption: "Hear actual Navajo code"  
+[url](https://www.cia.gov/stories/story/navajo-code-talkers-and-the-unbreakable-code/)  
+Riddle: "Decipher the code below: <div class='text-center'><br>Tkin-Gloe-lh-A-Kha<br>Ah-Ya-Tsinne-Tkin-Tsin-Tliti-Tse-Nill<br></div>"  
+Hint: the langauge should be clear    
+Answer:  Iwo Jima     
+
+#### Story: Pauline Cushman    
+[link](https://en.wikipedia.org/wiki/Pauline_Cushman)  
+imageCaption: "Cushman Wikipedia"  
+[url](https://www.womenhistoryblog.com/2008/01/pauline-cushman.html)  
+Riddle: "She became a spy by toasting who?"  
+Hint: google     
+Answer:  Jefferson Davis     
+
+#### Story: Women's Suffrage     
+[link](https://en.wikipedia.org/wiki/Women%27s_suffrage_in_the_United_States)  
+imageCaption: "Suffragists Parade"  
+[url](https://en.wikipedia.org/wiki/Nineteenth_Amendment_to_the_United_States_Constitution)  
+Riddle: "Trivia: List alphabetically the 8 states that rejected the 19th amendment?"  
+Hint: google     
+Answer:  Alabama Delaware Georgia Louisiana Maryland Mississippi South Carolina Virginia     
+
+#### Story:  Slave, Freed, Slave, Spy   
+[link](http://theglindafactor.com/mary-richards-bowser/)  
+imageCaption: "Mary Richards Bowser"  
+[url](https://en.wikipedia.org/wiki/Mary_Bowser)  
+Riddle: "Mary Richards Bowser: A freed woman, she took the role of working as a slave for Jefferson Davis in the Confederate White House.  She used an SBOX cipher with Elizabeth Van Lew. Decipher <div class='text-center'><br>61 55 42 62 13 43 63 54 <br>  36 63 54 11 61 14 61 43 36 63 54<br><br></div>"  
+Hint:  early s-box  
+Answer:  Richmond Underground    
+
+
 ### Module World:
 [World](https://wlowi.cyber-unh.org/treasuremap.html?region=WORLD)  
+
+#### Story:   
+[link]()  
+imageCaption: ""  
+[url]()  
+Riddle: ""  
+Hint:    
+Answer:     
+
+#### Story:   
+[link]()  
+imageCaption: ""  
+[url]()  
+Riddle: ""  
+Hint:    
+Answer:     
+
+#### Story:   
+[link]()  
+imageCaption: ""  
+[url]()  
+Riddle: ""  
+Hint:    
+Answer:     
+
+#### Story:   
+[link]()  
+imageCaption: ""  
+[url]()  
+Riddle: ""  
+Hint:    
+Answer:     
+
+#### Story:   
+[link]()  
+imageCaption: ""  
+[url]()  
+Riddle: ""  
+Hint:    
+Answer:     
+
+#### Story:   
+[link]()  
+imageCaption: ""  
+[url]()  
+Riddle: ""  
+Hint:    
+Answer:     
+
+#### Story:   
+[link]()  
+imageCaption: ""  
+[url]()  
+Riddle: ""  
+Hint:    
+Answer:     
+
+#### Story:   
+[link]()  
+imageCaption: ""  
+[url]()  
+Riddle: ""  
+Hint:    
+Answer:     
+
 
 ### Questions/Concerns/Suggestions/Bugs
 Please post issues to the [GitHub page](https://github/kengraf/GenCyber)
