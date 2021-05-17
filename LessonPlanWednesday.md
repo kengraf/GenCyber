@@ -496,7 +496,7 @@ else:
 Solved.  Good job!
 
 
-##  iI is your turn, secret #1
+####  It is your turn, secret #1
 1) Change the original  message and rerun the cell to generate a new secret message.  
 2) Post the secret message to your Discord channel as secret message #1.  
 3) Copy the secret message from another camper's channel.  
@@ -526,7 +526,7 @@ print(railfence.decrypt(secretMessage))
     
 
 
-## Changing the number of rails, secret #2
+#### Changing the number of rails, secret #2
 Railfences can have different numbers of rails.  
 So far you have used the module's default value of 3 rails.  
 
@@ -552,7 +552,7 @@ print(railfence.decrypt(secretMessage, railCount))
     
 
 
-## Starting on a different rail, secret #3
+#### Starting on a different rail, secret #3
 You start anywhere in a rail cycle.
 So far, we have using the default value of starting on the first rail (offset = 0)
 
@@ -577,7 +577,7 @@ print(railfence.decrypt(secretMessage, 3, offset))
     
 
 
-## Making it harder, secret #4
+#### Making it harder, secret #4
 This last share we are going to try harder on humans to decrypt the message.
 
 Pick both the number of rails and an offset.  Even for single digit values you are creating dozens of possibilities.
@@ -603,7 +603,7 @@ print(railfence.decrypt(secretMessage, railCount, offset))
     
 
 
-## Let the computer do the iterations for you
+#### Let the computer do the iterations for you
 
 
 ```python
@@ -616,7 +616,7 @@ for railCount in range(2, len(secretMessage)//2):
         print("Rails=%d, Offset=%d, maybe=%s" % (railCount, offset, maybeSolution ))
 ```
 
-## Extra credit, have the computer pick the best solution
+#### Extra credit, have the computer pick the best solution
 What if you scored every maybeSolution for the number of actual words it contains?  
 Then only print the best solution, rather than showing all iterations?
 
@@ -631,10 +631,14 @@ Wrap up
 
 ### Module 3: Image based steganography
 Points to be stressed during the lesson
-- 
+- Hiding messages in images is easy. Lots of bits that the human eye isn't going to notice.
+- It is best to start with an image that has a range of colors and avoids solid backgrounds.
+- Let's start with a depiction of the Charge of the Light Brigage, in real-life spies would use candid shots.
 
-Discussion: Would any of the following *tricks* make deciphering harder?
-- 
+Discussion: Could a computer notice the message?
+- Use Google image/search to compare images?
+- Analyse low order bits for a pattern?
+- If you use encryption does sharing the keys become the weak link?
 
 Instructions for hands on exercise
 - Camp lesson on pyton programming using image based stenanogrpahy.  
@@ -644,10 +648,119 @@ Instructions for hands on exercise
 - To start he lesson click on the lesson link ".ipynb".   
 - Feel free to play/alter the steps in the lesson. You will be working a temporary sandbox, so can not damage the original lesson.  
 
+# Steganography lesson
+Hiding messages in images is easy.  Lots of bits and the human eye isn't going to notice.  
+Could a computer notice?  Let's see.
+
+It is best to start with an image that has a range of colors and avoids solid backgrounds.
+
+Let's use a depiction of the Charge of the Light Brigage, in real-life spies would use candid shots.
+
+![](Charge600.jpg)
+
+# Before we start let's make sure the software we need is installed correctly
+# All the tests should show as 'Passed' 
+import steganography as steg
+steg.selfTest()
+
+# Time now to conceal our message.
+# Remember 'steganography' is greek for covered writing.
+# While spies would encrypt and cover their message, we are only going to cover.
+
+imageName = "Charge600.jpg"
+coveredMessage = "Into the valley of death rode the 600"
+colorUsed = 'R'
+bitUsed = '1'
+image = steg.encode( imageName, coveredMessage, colorUsed + bitUsed )
+coverImage = 'hidden.png'
+steg.write(coverImage,image)
+
+### Run this cell to show the hidden message image
+![](hidden.png)
+
+# Could you see the differrence?   If yes, then you are super human!
+# Use the decode function to retrieve the original message
+
+message = steg.decode(coverImage, colorUsed + bitUsed )
+print(message)
+
+## Lesson #1
+Upload an image you would like to use as your cover image  'your-image-name' 
+Set a short message as your "your-message".  Song lyrics, poems, and famous quotes work well.  
+
+imageName = "your-image-name"
+coverMessage = "your-message"
+colorUsed = 'R'
+bitUsed = '1'
+image = steg.encode( imageName, coverMessage, colorUsed + bitUsed )
+coverImage = 'cover.png'
+steg.write(coverImage,image)
+
+### Run this cell to show your hidden message image
+![](cover.png)
+
+# 1) Share the cover.pmg in your Discord channel
+# 2) upload someone elses image
+import urllib.request
+targetUrl = "http://unhash.cyber-unh.org/files/22525dbaeff388b36ae3176722cf223b/unhash21.png"
+contents = urllib.request.urlopen(targetUrl).read()
+print("Loaded %d byes" % (len(contents)))
+copiedImage = "lesson1." + targetUrl.split(".")[-1]
+with open(copiedImage, 'w') as f:
+    f.write(raw)
+    f.close()
+    print(copiedImage + " saved")
+
+# Find the hidden message
+message = steg.decode(coverImage, colorUsed + bitUsed )
+print(message)
+
+## Lesson #2
+Same process as lesson #1, but this time try a different color and bit
+Note if you use bit 8 you might notice a visual change in the image
+
+colorUsed = 'R' # Change this to 'B' or 'G'
+bitUsed = '1' # Change the bit layer used (2 thru 8)
+image = steg.encode( imageName, coverMessage, colorUsed + bitUsed )
+coverImage = 'cover2.png'
+steg.write(coverImage,image)
+
+# 1) Share the cover2.pmg in your Discord channel
+# 2) upload someone elses image
+import urllib.request
+targetUrl = "http://unhash.cyber-unh.org/files/22525dbaeff388b36ae3176722cf223b/unhash21.png"
+contents = urllib.request.urlopen(targetUrl).read()
+print("Loaded %d byes" % (len(contents)))
+copiedImage = "lesson1." + targetUrl.split(".")[-1]
+with open(copiedImage, 'w') as f:
+    f.write(raw)
+    f.close()
+    print(copiedImage + " saved")
+
+# Find the hidden message
+colorUsed = 'R' # You may need a few guesses 'B' or 'G'
+bitUsed = '1' # You may need a few guesses (2 thru 8)
+
+message = steg.decode(coverImage, colorUsed + bitUsed )
+print(message)
+
+## Extra credit 
+The steganography module is not very sophiscated.  Law enforcement might assume you are trying to hide a message read all the low bits and try to see if there is a message.
+
+What would you do to change how the bits are placed in the image?
+
+1) Write multiple colors  
+2) Reverse the bit order of the message  
+3) Start is the middle of (or some random place) image  
+4) Use an XOR mask  
+5) Write as a linked list  
+6) Use base64  
+...?
+
 Bonus work:
-- Post messages in your channel for other students to use.
-- Clone the repo: git clone https://github.com/kengraf/Steganogrpahy.git  
-- Web enable steganography.py  
+- Post images in your channel for other students to use.
+- Clone the repo: git clone https://github.com/kengraf/Steganography.git  
+- Web enable or add encryption to steganography.py  
 
 
 ### Module 4: TOTP (GoogleAuthenicator like) tokens
