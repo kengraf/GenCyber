@@ -1,17 +1,19 @@
 # UNH GenCyber : Thursday: “Virtual treasure hunts” Lesson Plan
-TBD
+Using tools and processes from earlier in the week, students will discover answers (treasure) for various historical events.
 
 ## Lesson Description
-TBD
+This lesson is divdied into three (3) modules; one each for New Hampshire, USA, and World events.  Story, location, and clues are presented as pins on a Google map.  Students are given a riddle or problem to solve that is related the story.
 
 ### Prerequisite Knowledge
 Students should have a basic understanding of how to use a web browser and be able to engage using remote meeting tools.
 
 ### Length of Completion
-The lesson has three (3) modules. Each module starts with a brief (15 minute) overview to provide context, instructions, and goals for the students.  Students typically complete each module in 90-120 minutes.  These lessons are based on Google Maps and Wikipedia and require Search and Cyberchef knowledge.  
+The lesson has three (3) modules. Each module starts with a brief (5 minute) overview to provide context, instructions, and goals for the students.  Students typically complete each module in 90-120 minutes.  These lessons are based on Google Maps and Wikipedia.  
+Search and Cyberchef knowledge is expected.  
 
 *Module 1: New Hampshire*  
-TBD
+First nations, black hertiage, revolutionary heros, civil war ballonist, cold war, and more.
+All in New Hampshire.
 *Module 2: United States*  
 TBD
 *Module 3: World*  
@@ -55,34 +57,47 @@ The lesson is intended for high school learners (beginner and intermediate level
 ## Resources & Requirements
 - Each student needs access to a browser and have the ability to connect to the remote meeting with both video and audio.
 - Websites/Software used  
-[GenCyberCoin Game](https://github.com/vitalyford/gencybercoin)  
-<img src="images/gencybercoin.png" alt="drawing" width="500"/>  
-
-- [Hacksplaining](https://hacksplaining.com)  
-<img src="images/hacksplaining.png" alt="drawing" width="500"/>  
+[Game site](https://wlowi.cyber-unh.org/treasuremap.html?region=WORLD)
+[Google](https://google.com/)  
+[Cyber Chef](https://gchq.github.io/CyberChef/)
+[Wikipedia](https://en.wikipedia.org/)
 
 ## Accommodations Needed
 Special technical setup may be needed for students who are visually or physically impaired to use the
 computer or engage in a remote meeting.
 
 ## LEARNING OUTCOMES
-- Demonstrate the ability to think like an adversary and identify what can go wrong on a website
-- Demonstrate the ability to use Internet resources to gather relevant information during a reconnaissance effort.
-- Learn about different types of vulnerabilities that are typical for websites.
-- Learn the basics of web ethical hacking and exploitation.
+- Demonstrate the ability problem solve.  
+- Demonstrate the ability to use Internet resources to gather relevant research information.
+- Learn about different practical implementations of cryptography.  
+- Understand that contributions come from everyone.  
 
 ## LESSON DETAILS
 ### Assessment
-The assessment for this lesson is a combination of informal observation and game statistics:
-- The number of students answering .. TBD
+The assessment for this lesson is a combination of informal observation and game statistics:  
+- The number of challenges all students answer  
+- The challenges that each sutdent answers
 
 ### Differentiated Learning Opportunities
-Advanced students can learn more TBD
+Advanced students will have the opportunity to share their methods.  
+
 ## LESSON PREPARATION
-### General TBD
-### SOFTWARE TBD
+### General
+Instructors should understand how to solve each challenge.  
+Instructors shoudl review the recommended hints for each challenge.  
+
+### SOFTWARE
+No local shotware install is required.
+
 ## LESSON 
-### Module 1: TBD, repeat for each module
-TBD
+### Module NH:
+[New Hampshire](https://wlowi.cyber-unh.org/treasuremap.html?region=NH)  
+
+### Module US:
+[US](https://wlowi.cyber-unh.org/treasuremap.html?region=US)   
+
+### Module World:
+[World](https://wlowi.cyber-unh.org/treasuremap.html?region=WORLD)  
+
 ### Questions/Concerns/Suggestions/Bugs
 Please post issues to the [GitHub page](https://github/kengraf/GenCyber)
