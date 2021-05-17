@@ -648,8 +648,127 @@ Instructions for hands on exercise
 - To start he lesson click on the lesson link ".ipynb".   
 - Feel free to play/alter the steps in the lesson. You will be working a temporary sandbox, so can not damage the original lesson.  
 
+# Steganography lesson
+![](Charge600.jpg)
 
-## Extra credit 
+
+```python
+# Before we start let's make sure the software we need is installed correctly
+# All the tests should show as 'Passed' 
+import steganography as steg
+steg.selfTest()
+```
+
+    Test png->png: Passed
+    Test png->jpeg: Passed
+    Test png->bmp: Passed
+    Test jpeg->png: Passed
+    Test jpeg->jpeg: Passed
+    Test jpeg->bmp: Passed
+    Test bmp->png: Passed
+    Test bmp->jpeg: Passed
+    Test bmp->bmp: Passed
+
+
+
+
+
+    True
+
+
+
+
+```python
+# Time now to conceal our message.
+# Remember 'steganography' is greek for covered writing.
+# While spies would encrypt and cover their message, we are only going to cover.
+
+imageName = "Charge600.jpg"
+coveredMessage = "Into the valley of death rode the 600"
+colorUsed = 'R'
+bitUsed = '1'
+image = steg.encode( imageName, coveredMessage, colorUsed + bitUsed )
+coverImage = 'hidden.png'
+steg.write(coverImage,image)
+```
+
+### Run this cell to show the hidden message image
+![](hidden.png)
+
+
+```python
+# Could you see the differrence?   If yes, then you are super human!
+# Use the decode function to retrieve the original message
+
+message = steg.decode(coverImage, colorUsed + bitUsed )
+print(message)
+```
+
+    Into the valley of death rode the 600
+
+
+#### Lesson #1
+Upload an image you would like to use as your cover image  'your-image-name' 
+Set a short message as your "your-message".  Song lyrics, poems, and famous quotes work well.  
+
+
+```python
+imageName = "Charge600.jpg"
+coverMessage = "your-message"
+colorUsed = 'R'
+bitUsed = '1'
+image = steg.encode( imageName, coverMessage, colorUsed + bitUsed )
+coverImage = 'cover.png'
+steg.write(coverImage,image)
+```
+
+### Run this cell to show your hidden message image
+![](cover.png)
+
+
+```python
+# 1) Upload the cover.png (output from previous cell) into your Discord channel
+# 2) Download an image from another channel, then upload to this binder site.
+# 3) Find the hidden message
+copiedImage = "cover.png"
+message = steg.decode(copiedImage, colorUsed + bitUsed )
+print(message)
+```
+
+    your-message
+
+
+#### Lesson #2
+Same process as lesson #1, but this time try a different color and bit
+Note if you use bit 8 you might notice a visual change in the image
+
+
+```python
+colorUsed = 'R' # Change this to 'B' or 'G'
+bitUsed = '1' # Change the bit layer used (2 thru 8)
+image = steg.encode( imageName, coverMessage, colorUsed + bitUsed )
+coverImage = 'cover2.png'
+steg.write(coverImage,image)
+```
+
+
+```python
+# 1) Upload the cover.png (output from previous cell) into your Discord channel
+# 2) Download an image from another channel, then upload to this binder site.
+# 3) Find the hidden message
+colorUsed = 'R' # You may need a few guesses 'B' or 'G'
+bitUsed = '1' # You may need a few guesses (2 thru 8)
+coverImage = 'cover2.png'
+
+message = steg.decode(coverImage, colorUsed + bitUsed )
+print(message)
+```
+
+    your-message
+
+
+
+#### Extra credit 
 The steganography module is not very sophiscated.  Law enforcement might assume you are trying to hide a message read all the low bits and try to see if there is a message.
 
 What would you do to change how the bits are placed in the image?
