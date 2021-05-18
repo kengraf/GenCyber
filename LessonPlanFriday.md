@@ -78,7 +78,14 @@ Advanced students can learn more TBD
 ### General TBD
 ### SOFTWARE TBD
 ## LESSON 
-### Module 1: TBD, repeat for each module
-TBD
+### Category: Sanity  
+```
+#### *My first flag*  
+Flags are case insensitive\nUnless you are told otherwise flags are given in this format flag{my 1st flag}.\nBrute forcing is never the correct approach.\n\nThis message contains the flag for this puzzle.  \n\nGood luck and happy hunting!  
+Points: 1 
+Answer: "my 1st flag"  
+```
+#### Category: Careers  
+   TBD
 ### Questions/Concerns/Suggestions/Bugs
 Please post issues to the [GitHub page](https://github/kengraf/GenCyber)
