@@ -254,7 +254,7 @@ Answer: samoan
 imageCaption: "Kanazawa Castle"  
 [url](https://en.wikipedia.org/wiki/Bushido)  
 Riddle: "Translate this to English:<div><p class='text-center'><br>名誉は権力を勝ち取らないかもしれませんが、それは尊敬を勝ち取ります。そして尊敬は力を得る。</p></div>"  
-Hint: Not English   
+Hint: Try a online translator   
 Answer: Honor may not win power, but it wins respect. And respect gains power.    
 
 #### Story: Zimmermann Telegram    
