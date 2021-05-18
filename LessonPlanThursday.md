@@ -13,11 +13,16 @@ Search and Cyberchef knowledge is expected.
 
 *Module 1: New Hampshire*  
 First nations, black hertiage, revolutionary heros, civil war ballonist, cold war, and more.
-All in New Hampshire.
+All in New Hampshire.  
+
 *Module 2: United States*  
 Slave spies, women pioneers, Navajo code, Selma, and more.  
-*Module 3: World*  
-TBD
+All in the U.S.A.  
+
+*Module 3: World*    
+Global warming haiku, Not so secret cables, Aborigines, Antiquity, GCHQ, and more.
+Anywhere  
+
 ### Level of Instruction
 The lesson is intended for high school learners (beginner and intermediate levels)
 
@@ -228,69 +233,69 @@ Answer:  Richmond Underground
 ### Module World:
 [World](https://wlowi.cyber-unh.org/treasuremap.html?region=WORLD)  
 
-#### Story:   
-[link]()  
-imageCaption: ""  
-[url]()  
-Riddle: ""  
-Hint:    
-Answer:     
+#### Story: International Spy Museum    
+[link](https://en.wikipedia.org/wiki/International_Spy_Museum)  
+imageCaption: "Spy Museum Wiki page"  
+[url](https://www.spymuseum.org/education-programs/educators/lesson-plans-activities/)  
+Riddle: "The site has downloadable <a href-'https://spy-museum.s3.amazonaws.com/'>workbooks.</a>What is the filename of the last modified public file?"  
+Hint:  It is the most recent file   
+Answer: 208b605c01bc1fd2b9ad92a96f77a169a84643cdeb82a9e64204e23f501afa17371012ec4c2928fda5477f19eaecf9ff449e2accaef00c2d842bf9654e48a232.txt     
 
-#### Story:   
-[link]()  
-imageCaption: ""  
-[url]()  
-Riddle: ""  
-Hint:    
-Answer:     
+#### Story: Global Warming Haiku  
+[link](https://climatesciencehaiku.tumblr.com/)  
+imageCaption: "Source: Climate Science Haiku"  
+[url](https://climate.nasa.gov/)  
+Riddle: "What language is this translation of the pindrop's haiku written in?<div><p class='text-center'>Ua fasefulu tausaga nei<br>Tamaiti o le a ola i le lalolagi<br>Seti e la matou filifiliga.<br> </p></div>"  
+Hint: pin location     
+Answer: samoan      
 
-#### Story:   
-[link]()  
-imageCaption: ""  
-[url]()  
-Riddle: ""  
-Hint:    
-Answer:     
+#### Story: Bashido Code    
+[link](http://www.pref.ishikawa.jp/siro-niwa/kanazawajou/e/index.html)  
+imageCaption: "Kanazawa Castle"  
+[url](https://en.wikipedia.org/wiki/Bushido)  
+Riddle: "Translate this to English:<div><p class='text-center'><br>名誉は権力を勝ち取らないかもしれませんが、それは尊敬を勝ち取ります。そして尊敬は力を得る。</p></div>"  
+Hint: Not English   
+Answer: Honor may not win power, but it wins respect. And respect gains power.    
 
-#### Story:   
-[link]()  
-imageCaption: ""  
-[url]()  
-Riddle: ""  
-Hint:    
-Answer:     
+#### Story: Zimmermann Telegram    
+[link](https://en.wikipedia.org/wiki/Zimmermann_Telegram)  
+imageCaption: "Wiki page"  
+[url](https://hackaday.com/2017/01/26/the-zimmermann-telegram/)  
+Riddle: "Britain re-encoded the telegram encoded with cipher 7600 to what other cipher?"  
+Hint: google   
+Answer: 13040      
 
-#### Story:   
-[link]()  
-imageCaption: ""  
-[url]()  
-Riddle: ""  
-Hint:    
-Answer:     
+#### Story: Uluru (Ayers Rock)    
+[link](https://en.wikipedia.org/wiki/Uluru)  
+imageCaption: "Wiki image"  
+[url](https://www.britannica.com/topic/Australian-Aboriginal)  
+Riddle: "Traditional Aboriginal healers are called what?"  
+Hint: google      
+Answer: ngangkari      
 
-#### Story:   
-[link]()  
-imageCaption: ""  
-[url]()  
-Riddle: ""  
-Hint:    
-Answer:     
+#### Story: Rosetta Stone    
+[link](https://en.wikipedia.org/wiki/Rosetta_Stone)  
+imageCaption: "Wiki Iamge"  
+[url](https://en.wikipedia.org/wiki/Rosetta_Stone#/media/File:Champollion_table.jpg)  
+Riddle: "<div class='text-center'><img src='images/hieroglyphs.png' style='width:300px;'></div>"  
+Hint:  ph = f  
+Answer:  phonetic translation      
 
-#### Story:   
-[link]()  
-imageCaption: ""  
-[url]()  
-Riddle: ""  
+#### Story: GCHQ    
+[link](https://www.gchq.gov.uk/)  
+imageCaption: "The 13040"  
+[url](https://en.wikipedia.org/wiki/GCHQ)  
+Riddle: "Can you follow the arrows to discover a two word answer (7,9)?<div><p class='text-center'><a href='images/gchq-puzzle.png' target='_blank'>Puzzle image</a><br>If you want to keep testing your skills, check out the <a href='https://twitter.com/GCHQ', target='_blank'>GCHQ Twitter account</a>, which publishes puzzles on a weekly basis. </p></div>"  
 Hint:    
-Answer:     
+Answer: seasons greetings    
 
-#### Story:   
-[link]()  
-imageCaption: ""  
-[url]()  
-Riddle: ""  
-Hint:    
-Answer:     
+#### Story: Virginia Hall    
+[link](https://allthatsinteresting.com/virginia-hall)  
+imageCaption: "Portrait"  
+[url](https://en.wikipedia.org/wiki/Enigma_machine)  
+Riddle: "Decipher the message broadcasting the death of Hitler.  Use your Pringles machine to decipher the proper settings of the rotors for the message.  Set your rotors to AAA.   Decipher the message key 'SECURE'. Remember to rotate the right rotor before deciphering each letter.   The first 3 letters are the ring settings, the second 3 letters are the rotor's initial values.  Use CyberChef to decipher the actual message.  Your Pringle's machine is highly error prone and assumes ring settings of AAA.<div><p class='text-center' style='font-family: courier; font-size:14pt;' ><br>VJWWU YDNMG VFGJQ WDXTZ HPTMA XCDHP AIPYC YDEVT WNSKG ISAJR ZPQDW LTTPF ETDLH RSUAO JVBKI DFKJX VWJIO YOTCY MNBUY EUFJP WNBMG MWWUO GBIOK LUIUI KCVME SMVUN QHODQ KKPDC LEJMS REBES GXPTZ NIBTR CKGZF ETPNP WYIBG FWIZX DFCGS PQPBJ QLWDE VASNK VTZDG OFMKE MYTXB MWRPQ CUBRA ORYUL KYLUN YEJTM JOKST PDOLN WGKEA CFBOG XAOXZ KTNIJ LXQMX KWZYI FQZRG GJBHT NEOAD RUIZO BPDIC XSXQQ QTJGG<br> </p></div>The enigma cipher doesn't care about whitespace or punctuation.  Both aid frequency analysis.  Parse the message so you understand it.  The SUBMIT button doesn't care about whitespace either.Note: If you brave enough to try this using your Pringle's machine.  Shade the following letters left-to-right to simulate the proper ring setting (SDM)."  
+Hint: JLE REN   
+Answer: VJWWU YDNMG VFGJQ WDXTZ HPTMA XCDHP AIPYC YDEVT WNSKG ISAJR ZPQDW LTTPF ETDLH RSUAO JVBKI DFKJX VWJIO YOTCY MNBUY EUFJP WNBMG MWWUO GBIOK LUIUI KCVME SMVUN QHODQ KKPDC LEJMS REBES GXPTZ NIBTR CKGZF ETPNP WYIBG FWIZX DFCGS PQPBJ QLWDE VASNK VTZDG OFMKE MYTXB MWRPQ CUBRA ORYUL KYLUN YEJTM JOKST PDOLN WGKEA CFBOG XAOXZ KTNIJ LXQMX KWZYI FQZRG GJBHT NEOAD RUIZO BPDIC XSXQQ QTJGG    
 
 
 ### Questions/Concerns/Suggestions/Bugs
