@@ -79,11 +79,13 @@ Advanced students can learn more TBD
 ### SOFTWARE TBD
 ## LESSON 
 ### Category: Sanity  
-```
-#### *My first flag*  
-Flags are case insensitive\nUnless you are told otherwise flags are given in this format flag{my 1st flag}.\nBrute forcing is never the correct approach.\n\nThis message contains the flag for this puzzle.  \n\nGood luck and happy hunting!  
-Points: 1 
-Answer: "my 1st flag"  
+```json
+{
+"Title": *My first flag*,
+"Description", Flags are case insensitive\nUnless you are told otherwise flags are given in this format flag{my 1st flag}.\nBrute forcing is never the correct approach.\n\nThis message contains the flag for this puzzle.  \n\nGood luck and happy hunting!,
+Points: 1,
+Answer: "my 1st flag"
+}
 ```
 #### Category: Careers  
    TBD
