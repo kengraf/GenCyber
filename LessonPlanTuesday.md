@@ -15,10 +15,13 @@ Lesson: Transposition.  The hands-on exercises uses the Greek/Sparta Scytale cip
 Lesson: Substitution.		The hands-on exercises uses the Caesar cipher.
 Lesson: Frequency Analysis. 	The hands-on exercises uses Civil War messages encoded with the Vigenère cipher.
 Lesson: Compound.		The hands-on exercises uses the Pringle can Enigma exercise.
-*"Modern Cryptography" module*
-## DX:TBD lesson titles
 
-lesson (AES, RSA) 
+*"Modern Cryptography" module*
+
+## DX:DONE lesson titles
+
+Lesson: Symmetric block cipher. The hands-on exercises uses the Data Encryption Standard (DES).
+Lesson: Asymmetric cipher. The hands-on exercises uses the RSA algorithm.
 
 ## Applicable First Principles and Concepts
 
@@ -59,7 +62,7 @@ lesson (AES, RSA)
 [Pringles Enigma lab](http://wiki.franklinheath.co.uk/index.php/Enigma/Paper_Enigma )  
 [Cyber Chef](https://gchq.github.io/CyberChef/)  
 [Spy Museum](https://www.spymuseum.org/)  
-## DX:TBD related links
+
 
 ## Accommodations Needed
 Special technical setup may be needed for students who are visually or physically impaired to use the
@@ -93,8 +96,11 @@ Review the "Pringles Can" videos to understand the "Cipher History" module's han
 *Demonstration of Caesar, Vigenere, and Enigma*
 [YouTube video](https://youtu.be/DHilx3lxoBo)  
 
-Review/Personalize the lecture [Link to lesson slides](images/CipherHistory-LectureSlides.pdf)
+Review/Personalize the lecture [Link to lesson slides](images/CipherHistory-LectureSlides.pdf**
 ## DX:TBD related content
+
+*Asymmetric Encryption - Simply explained*
+[YouTube video](https://www.youtube.com/watch?v=AQDCe585Lnc)
 
 ### SOFTWARE
 This lesson uses only online based resources, no software installs are required.
