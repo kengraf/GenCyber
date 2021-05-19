@@ -2,16 +2,14 @@
 As the final day of camp students will use the lessons learned to complete series of CTF challenges.  Using a Jeopardy like format covering: Crypto, Coding, Web, networking, and Career topics. 
 
 ## Lesson Description
-TBD
+Sixty (60) challenge [web site](http://unhash.cyber-unh.org) based on [CTFd](https://github.com/CTFd/CTFd).  The challenges draw from all 4 previous days of camp.
 
 ### Prerequisite Knowledge
 Students should have a basic understanding of how to use a web browser and be able to engage using remote meeting tools.
 
 ### Length of Completion
-The lesson is a day review of what was taught during the week. The format is CTF based, requiring students to due from knowledge gained earlier in the week.
+The lesson is a day long review of what was taught during the week. The format is CTF based, requiring students to use from knowledge gained earlier in the week.
 
-*Module 1: Cryptopuzzles*  
-TBD
 ### Level of Instruction
 The lesson is intended for high school learners (beginner and intermediate levels)
 
@@ -51,7 +49,8 @@ The lesson is intended for high school learners (beginner and intermediate level
 ## Resources & Requirements
 - Each student needs access to a browser and have the ability to connect to the remote meeting with both video and audio.
 - Websites/Software used  
-[GenCyberCoin Game](https://github.com/vitalyford/gencybercoin)  
+[Challenge web site](http://unhash.cyber-unh.org)  
+[Cyber Chef](https://gchq.github.io/CyberChef/)
 
 ## Accommodations Needed
 Special technical setup may be needed for students who are visually or physically impaired to use the
@@ -59,20 +58,26 @@ computer or engage in a remote meeting.
 
 ## LEARNING OUTCOMES
 - Demonstrate the ability to think like an adversary and identify what can go wrong on a website
-- Demonstrate the ability to use Internet resources to gather relevant information during a reconnaissance effort.
-- Learn about different types of vulnerabilities that are typical for websites.
-- Learn the basics of web ethical hacking and exploitation.
+- Demonstrate the ability to use Internet resources to gather relevant information.
+- Apply knowledge about different types of ciphers.
+- Learn the about cybersecurity career resources.
 
 ## LESSON DETAILS
 ### Assessment
 The assessment for this lesson is a combination of informal observation and game statistics:
-- The number of students answering .. TBD
+- The number of students correctly answering challenges.
 
 ### Differentiated Learning Opportunities
-Advanced students can learn more TBD
+Advanced students will have the opportunity to create their own challenges.  
+
 ## LESSON PREPARATION
-### General TBD
-### SOFTWARE TBD
+### General
+Validate instructor and student connectivity.  
+Instructor should review the hints to understand how each challenge can be solved.  This is especially import for the harder challenges.  
+
+### SOFTWARE
+No local software installs are needed.  
+
 ## LESSON 
 ### Category: Sanity  
 Just a validity check to make sure everyone knows how to submit a flag (right answer)
