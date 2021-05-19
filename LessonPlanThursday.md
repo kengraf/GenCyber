@@ -2,17 +2,17 @@
 Using tools and processes from earlier in the week, students will discover answers (treasure) for various historical events.
 
 ## Lesson Description
-This lesson is divdied into three (3) modules; one each for New Hampshire, USA, and World events.  Story, location, and clues are presented as pins on a Google map.  Students are given a riddle or problem to solve that is related the story.
+This lesson is divided into three (3) modules; one each for New Hampshire, USA, and World events.  Story, location, and clues are presented as pins on a Google map.  Students are given a riddle or problem to solve that is related the story.
 
 ### Prerequisite Knowledge
 Students should have a basic understanding of how to use a web browser and be able to engage using remote meeting tools.
 
 ### Length of Completion
 The lesson has three (3) modules. Each module starts with a brief (5 minute) overview to provide context, instructions, and goals for the students.  Students typically complete each module in 90-120 minutes.  These lessons are based on Google Maps and Wikipedia.  
-Search and Cyberchef knowledge is expected.  
+Search and Cyber Chef knowledge is expected.  
 
 *Module 1: New Hampshire*  
-First nations, black hertiage, revolutionary heros, civil war ballonist, cold war, and more.
+First nations, black heritage, revolutionary heroes, civil war balloonist, cold war, and more.
 All in New Hampshire.  
 
 *Module 2: United States*  
@@ -81,7 +81,7 @@ computer or engage in a remote meeting.
 ### Assessment
 The assessment for this lesson is a combination of informal observation and game statistics:  
 - The number of challenges all students answer  
-- The challenges that each sutdent answers
+- The challenges that each student answers
 
 ### Differentiated Learning Opportunities
 Advanced students will have the opportunity to share their methods.  
@@ -89,7 +89,7 @@ Advanced students will have the opportunity to share their methods.
 ## LESSON PREPARATION
 ### General
 Instructors should understand how to solve each challenge.  
-Instructors shoudl review the recommended hints for each challenge.  
+Instructors should review the recommended hints for each challenge.  
 
 ### SOFTWARE
 No local software install is required.
@@ -100,10 +100,10 @@ No local software install is required.
 
 #### Story: Redstone rocket
 [link](https://www.atlasobscura.com/places/redstone-rocket)  
-imageCaption: "Sitting on the village green in the town of Warren, NH, is a Redstone ballistic missle"  
+imageCaption: "Sitting on the village green in the town of Warren, NH, is a Redstone ballistic missile"  
 [url](http://www.cowhampshireblog.com/2006/11/24/the-day-warren-new-hampshire-went-ballistic/)  
 Riddle: "These pairs have something in common.  One is the only in the world, the last has a rocket, what is the first?<div><p class='text-center'>deer, brook <br> dia, aan <br> niker, gos <br>ren, ner <br>  ber, dub <br> and, han <br> bon, hol</p></div>"  
-Hint:  Town/City names that share a slylable  
+Hint:  Town/City names that share a syllable    
 Answer: andover  
 
 #### Story: Susannah Willard Johnson  
@@ -275,7 +275,7 @@ Answer: ngangkari
 
 #### Story: Rosetta Stone    
 [link](https://en.wikipedia.org/wiki/Rosetta_Stone)  
-imageCaption: "Wiki Iamge"  
+imageCaption: "Wiki Image"  
 [url](https://en.wikipedia.org/wiki/Rosetta_Stone#/media/File:Champollion_table.jpg)  
 Riddle: "<div class='text-center'><img src='images/hieroglyphs.png' style='width:300px;'></div>"  
 Hint:  ph = f  
