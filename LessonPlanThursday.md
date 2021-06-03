@@ -237,7 +237,7 @@ Answer:  Richmond Underground
 [link](https://en.wikipedia.org/wiki/International_Spy_Museum)  
 imageCaption: "Spy Museum Wiki page"  
 [url](https://www.spymuseum.org/education-programs/educators/lesson-plans-activities/)  
-Riddle: "The site has downloadable <a href-'https://spy-museum.s3.amazonaws.com/'>workbooks.</a>What is the filename of the last modified public file?"  
+Riddle: "The site has downloadable <a href='https://spy-museum.s3.amazonaws.com/'>workbooks.</a>What is the filename of the last modified public file?"  
 Hint:  It is the most recent file   
 Answer: 208b605c01bc1fd2b9ad92a96f77a169a84643cdeb82a9e64204e23f501afa17371012ec4c2928fda5477f19eaecf9ff449e2accaef00c2d842bf9654e48a232.txt     
 
