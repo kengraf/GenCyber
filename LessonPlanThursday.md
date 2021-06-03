@@ -285,7 +285,7 @@ Answer:  phonetic translation
 [link](https://www.gchq.gov.uk/)  
 imageCaption: "The 13040"  
 [url](https://en.wikipedia.org/wiki/GCHQ)  
-Riddle: "Can you follow the arrows to discover a two word answer (7,9)?<div><p class='text-center'><a href='images/gchq-puzzle.png' target='_blank'>Puzzle image</a><br>If you want to keep testing your skills, check out the <a href='https://twitter.com/GCHQ', target='_blank'>GCHQ Twitter account</a>, which publishes puzzles on a weekly basis. </p></div>"  
+Riddle: "Can you follow the arrows to discover a two word answer (7,9)? <div><p class='text-center'><a href='images/gchq-puzzle.png' target='_blank'>Puzzle image</a><br>If you want to keep testing your skills, check out the <a href='https://twitter.com/GCHQ'  target='_blank'>GCHQ Twitter account</a>, which publishes puzzles on a weekly basis. </p></div>"  
 Hint:    
 Answer: seasons greetings    
 
