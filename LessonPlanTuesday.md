@@ -100,7 +100,13 @@ Review/Personalize the lecture [Link to lesson slides](images/CipherHistory-Lect
 ## DX:TBD related content
 
 *Asymmetric Encryption - Simply explained*
-[YouTube video](https://www.youtube.com/watch?v=AQDCe585Lnc)
+[YouTube video](https://www.youtube.com/watch?v=AQDCe585Lnc)  
+
+*Feistel Cipher*
+[Wikipedia](https://en.wikipedia.org/wiki/Feistel_cipher)
+
+*DES*
+[Wikipedia](https://en.wikipedia.org/wiki/Data_Encryption_Standard)
 
 ### SOFTWARE
 This lesson uses only online based resources, no software installs are required.
