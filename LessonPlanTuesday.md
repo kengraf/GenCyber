@@ -97,7 +97,7 @@ Review the "Pringles Can" videos to understand the "Cipher History" module's han
 [YouTube video](https://youtu.be/DHilx3lxoBo)  
 
 Review/Personalize the lecture [Link to lesson slides](images/CipherHistory-LectureSlides.pdf**
-## DX:TBD related content
+## DX:DONE related content
 
 *Asymmetric Encryption - Simply explained*
 [YouTube video](https://www.youtube.com/watch?v=AQDCe585Lnc)  
@@ -251,7 +251,37 @@ Bonus work: A second message for students that finish quickly
 - [Review the BOMBE[(https://www.britannica.com/topic/Ultra-Allied-intelligence-project#ref1073435)
 - [Review Wiki](http://wiki.franklinheath.co.uk/index.php/Enigma)
 
-## DX:TBD lessons detail
+## DX:DONE Modern Cipher Lessons Detail
+
+### Modern Cipher: Symmetric Block Cipher Lesson
+
+Points to be stressed during the lesson
+- Plaintext and ciphertext consist of *fixed-sized* blocks
+- The encryption/decrpytion includes many rounds (loop)
+- Every round iterates a *Round Function* to transform plantext to ciphertext
+- The key and output of previous round are the input to the round function
+- Feistel cipher is a design pattern for block cipher
+- The encryption and decryption in Feistel cipher
+- DES block length, key length, rounds
+- DES Expend, S-box, P-box
+- Block cipher notation
+
+Discussion:
+- Does Feistel cipher always correctly decrypt the ciphertext?
+- What is a good round function?
+
+
+### Modern Cipher: Asymmetric Key Cipher Lesson
+
+Points to be stressed during the lesson
+- Asymmetric key cipher has two different keys for encryption and decryption
+- The design is based on one-way function
+- RSA algorithm procedure
+
+Discussion:
+- Why breaking RSA is difficult?
+- Why factoring a large integer is difficult?
+
 
 ### Questions/Concerns/Suggestions/Bugs
 Please post issues to the [GitHub page](https://github/kengraf/GenCyber)
