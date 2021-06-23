@@ -270,6 +270,11 @@ Discussion:
 - Does Feistel cipher always correctly decrypt the ciphertext?
 - What is a good round function?
 
+Instructions for hands on exercise
+- Calculate L2 and R2 given the following round function
+  1. F = R(i-1)
+  2. F = R(i-1) xor K(i)
+- Use CyberChef to do DES encryption and decryption
 
 ### Modern Cipher: Asymmetric Key Cipher Lesson
 
@@ -282,6 +287,9 @@ Discussion:
 - Why breaking RSA is difficult?
 - Why factoring a large integer is difficult?
 
+Instructions for hands on exercise
+- Give p = 5 and q = 11, calculate the public and private key
+- Show the encryption and decryption procedure
 
 ### Questions/Concerns/Suggestions/Bugs
 Please post issues to the [GitHub page](https://github/kengraf/GenCyber)
