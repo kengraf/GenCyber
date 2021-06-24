@@ -18,8 +18,6 @@ Lesson: Compound.		The hands-on exercises uses the Pringle can Enigma exercise.
 
 *"Modern Cryptography" module*
 
-## DX:DONE lesson titles
-
 Lesson: Symmetric block cipher. The hands-on exercises uses the Data Encryption Standard (DES).
 Lesson: Asymmetric cipher. The hands-on exercises uses the RSA algorithm.
 
@@ -97,7 +95,6 @@ Review the "Pringles Can" videos to understand the "Cipher History" module's han
 [YouTube video](https://youtu.be/DHilx3lxoBo)  
 
 Review/Personalize the lecture [Link to lesson slides](images/CipherHistory-LectureSlides.pdf**
-## DX:DONE related content
 
 *Asymmetric Encryption - Simply explained*
 [YouTube video](https://www.youtube.com/watch?v=AQDCe585Lnc)  
@@ -250,8 +247,6 @@ Instructions for hands on exercise
 Bonus work: A second message for students that finish quickly
 - [Review the BOMBE[(https://www.britannica.com/topic/Ultra-Allied-intelligence-project#ref1073435)
 - [Review Wiki](http://wiki.franklinheath.co.uk/index.php/Enigma)
-
-## DX:DONE Modern Cipher Lessons Detail
 
 ### Modern Cipher: Symmetric Block Cipher Lesson
 
