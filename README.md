@@ -11,7 +11,7 @@ Afternoon 3: Use lessons learned with the GenCyberCoin game.
 ## Tuesday: “A history of secrets” [Lesson Plan](./LessonPlanTuesday.md)
 Morning 1: Cryptography history lessons (Caesar, Vigenere, Enigma)  
 Morning 2: Hands-on based on Pringles can [Enigma](https://cyber.org/enigma).   
-Afternoon 1: Modern cryptography lesson (AES, RSA)  
+Afternoon 1: Modern cryptography lesson (DES, RSA)  
 Afternoon 2: Hands-on using online tools [CyberChef](https://gchq.github.io/CyberChef/) and [RSA Calculator](https://www.cs.drexel.edu/~jpopyack/IntroCS/HW/RSAWorksheet.html)  
 
 ## Wednesday: “Spies and Codes” [Lesson Plan](./LessonPlanWednesday.md)
