@@ -55,8 +55,9 @@ The lesson is intended for high school learners (beginner and intermediate level
 - Before the beginning of the lesson.  Each student needs to provide a personal story about an event in their life.  It can be an event, place, or emotion they would like to share.  It is meant to be brief less than 100 words, but must contain at least twenty words six characters or longer.  The last requirement is for lessons later in the week.
 - Each student needs access to a browser and have the ability to connect to the remote meeting with both video and audio.
 - Websites/Software used  
-[GenCyberCoin Game](https://github.com/vitalyford/gencybercoin)  
-<img src="images/gencybercoin.png" alt="drawing" width="500"/>  
+[GenCyberCoin Game (GitHub)](https://github.com/vitalyford/gencybercoin)  
+[Camp instance](https://unh-gencyber.herokuapp.com/)  
+<img src="images/gencybercoin.png" alt="drawing" width="500"/> 
 
 - [Hacksplaining](https://hacksplaining.com)  
 <img src="images/hacksplaining.png" alt="drawing" width="500"/>  
