@@ -56,7 +56,8 @@ The lesson is intended for high school learners (beginner and intermediate level
 - Each student needs access to a browser and have the ability to connect to the remote meeting with both video and audio.
 - Websites/Software used  
 [GenCyberCoin Game (GitHub)](https://github.com/vitalyford/gencybercoin)  
-[Camp instance](https://unh-gencyber.herokuapp.com/)  
+[Camp instance: EAST](https://gencybercoin-east.herokuapp.com/)  
+[Camp instance: WEST](https://gencybercoin-west.herokuapp.com/)  
 <img src="images/gencybercoin.png" alt="drawing" width="500"/> 
 
 - [Hacksplaining](https://hacksplaining.com)  
