@@ -56,8 +56,8 @@ The lesson is intended for high school learners (beginner and intermediate level
 - Each student needs access to a browser and have the ability to connect to the remote meeting with both video and audio.
 - Websites/Software used  
 [GenCyberCoin Game (GitHub)](https://github.com/vitalyford/gencybercoin)  
-[Camp instance: EAST](https://gencybercoin-east.herokuapp.com/)  
-[Camp instance: WEST](https://gencybercoin-west.herokuapp.com/)  
+[Camp instance: EAST](https://gencybercoin-east.herokuapp.com/)  Registration code: 1#9ffcd
+[Camp instance: WEST](https://gencybercoin-west.herokuapp.com/)  Registration code: 1#965b8 
 <img src="images/gencybercoin.png" alt="drawing" width="500"/> 
 
 - [Hacksplaining](https://hacksplaining.com)  
