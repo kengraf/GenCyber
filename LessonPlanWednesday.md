@@ -133,7 +133,7 @@ The shell prompt look something like this:
 It shows the user's name `ken` the machine name `kali` and your current working directory `~` which is a shortcut for your home directory or `/home/ken` for user `ken`
 
 Try some basic commands  
-- data  
+- date  
 - cal  
 - df  
 - free  
@@ -203,7 +203,7 @@ cp item2 dir1
 mv item1 item2
 mv item2 dir1
 cd dir1
-rm item1
+rm item2
 cd ..
 rm -r dir1
 
@@ -225,7 +225,6 @@ type ls
 type cp
 which ls
 which cd
-help cd
 mkdir --help
 man ls
 man 5 passwd
