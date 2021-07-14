@@ -158,7 +158,7 @@ Answer: DyNAmIC AmErICaN WAr ReSeArCH GeNiUS
 [link](https://www.tripadvisor.com/Attraction_Review-g46209-d5961990-Reviews-Portsmouth_Black_Heritage_Trail-Portsmouth_New_Hampshire.html)  
 imageCaption: "Trip Advisor picture"  
 [url](https://www.nhbr.com/black-heritage-trail-uncovers-hidden-history/)  
-Riddle: "Follow the Portsmouth Black Heritage Trail.  Which location does not have a trail marker?<div><p class='text-center'>ducks.stand.drag<br>excuse.factor.chose<br>space.beans.fault<br>truly.honest.onion<br>hello.forced.hoot<br>torch.dusty.precautions<br>spell.puzzle.weds<br>slide.sulk.others<br>action.rich.robot</p></div"  
+Riddle: "Follow the Portsmouth Black Heritage Trail.  Which location does not have a trail marker?<div><p class='text-center'>ducks.stands.drag<br>excuse.factor.chose<br>space.beans.fault<br>truly.honest.onion<br>hello.forced.hoot<br>torch.dusty.precautions<br>spell.puzzle.weds<br>slide.sulk.others<br>action.rich.robot</p></div"  
 Hint:  What 3 words  
 Answer: action.rich.robot    
 
@@ -233,13 +233,13 @@ Answer:  Richmond Underground
 ### Module World:
 [World](https://wlowi.cyber-unh.org/treasuremap.html?region=WORLD)  
 
-#### Story: International Spy Museum    
-[link](https://en.wikipedia.org/wiki/International_Spy_Museum)  
-imageCaption: "Spy Museum Wiki page"  
-[url](https://www.spymuseum.org/education-programs/educators/lesson-plans-activities/)  
-Riddle: "The site has downloadable <a href='https://spy-museum.s3.amazonaws.com/'>workbooks.</a>What is the filename of the last modified public file?"  
-Hint:  It is the most recent file   
-Answer: 208b605c01bc1fd2b9ad92a96f77a169a84643cdeb82a9e64204e23f501afa17371012ec4c2928fda5477f19eaecf9ff449e2accaef00c2d842bf9654e48a232.txt     
+#### Story: Hack The Box    
+[link](https://app.hackthebox.eu/home)  
+imageCaption: "NSA outreach effort"  
+[url](https://www.nsa.gov/about/cryptologic-heritage/museum/)  
+Riddle: "Who is the highest scoring student on the UNH team?"  
+Hint:  In the university section   
+Answer: mdelrio     
 
 #### Story: Global Warming Haiku  
 [link](https://climatesciencehaiku.tumblr.com/)  
