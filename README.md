@@ -36,13 +36,17 @@ in the lessons.  You will be working a temporary sandbox, so can not damage the 
 
 The Linux lab has separate instructions for connecting to the remote Kali instance this lab uses. 
 ## Thursday: “Virtual treasure hunts” [Lesson Plan](./LessonPlanThursday.md)
-Morning 1:  Tools lecture:  Google Maps, Geocaching, What3Words, Earth point systems  
-Morning 2:  NH based hunt   
-<a href="https://wlowi.cyber-unh.org/treasuremap.html?region=NH" target="_blank"><img src="images/nh-treasurehunt.png" alt="drawing" width="600"/></a><br>
-Afternoon 1: USA based hunt  
-<a href="https://wlowi.cyber-unh.org/treasuremap.html?region=US" target="_blank"><img src="images/us-treasurehunt.png" alt="drawing" width="600"/></a><br>
-Afternoon 2: International hunt  
+Session 1:  International Hunt (click on image to start)  
+Tools Used:  Google Search, Maps, and Translate. CyberChef(Enigma) 
 <a href="https://wlowi.cyber-unh.org/treasuremap.html?region=WORLD" target="_blank"><img src="images/world-treasurehunt.png" alt="drawing" width="600"/></a><br>
+
+Session 2: USA based hunt   (click on image to start)  
+Tools Used:  Google Images, Steganography lesson, Maps, Code books  
+<a href="https://wlowi.cyber-unh.org/treasuremap.html?region=US" target="_blank"><img src="images/us-treasurehunt.png" alt="drawing" width="600"/></a><br>
+
+Session 3:  NH based hunt    (click on image to start)  
+Tools Used:  Google Plus codes, What3words, CyberChef(Bacon,XOR)  
+<a href="https://wlowi.cyber-unh.org/treasuremap.html?region=NH" target="_blank"><img src="images/nh-treasurehunt.png" alt="drawing" width="600"/></a><br>
 
 ## Friday: “Cryptopuzzles” [Lesson Plan](./LessonPlanFriday.md)
 
