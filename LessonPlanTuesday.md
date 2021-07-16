@@ -94,6 +94,8 @@ Review the "Pringles Can" videos to understand the "Cipher History" module's han
 *Demonstration of Caesar, Vigenere, and Enigma*
 [YouTube video](https://youtu.be/DHilx3lxoBo)  
 
+[Online Enigma Simulator](https://www.101computing.net/enigma-machine-emulator/)
+
 *Asymmetric Encryption - Simply explained*
 [YouTube video](https://www.youtube.com/watch?v=AQDCe585Lnc)  
 
