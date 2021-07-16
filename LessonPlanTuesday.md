@@ -94,8 +94,6 @@ Review the "Pringles Can" videos to understand the "Cipher History" module's han
 *Demonstration of Caesar, Vigenere, and Enigma*
 [YouTube video](https://youtu.be/DHilx3lxoBo)  
 
-Review/Personalize the lecture [Link to lesson slides](images/CipherHistory-LectureSlides.pdf**
-
 *Asymmetric Encryption - Simply explained*
 [YouTube video](https://www.youtube.com/watch?v=AQDCe585Lnc)  
 
@@ -104,6 +102,9 @@ Review/Personalize the lecture [Link to lesson slides](images/CipherHistory-Lect
 
 *DES*
 [Wikipedia](https://en.wikipedia.org/wiki/Data_Encryption_Standard)
+
+^AES*
+[AES explained](https://www.youtube.com/watch?v=mlzxpkdXP58)
 
 ### SOFTWARE
 This lesson uses only online based resources, no software installs are required.
@@ -245,7 +246,7 @@ Instructions for hands on exercise
  - ![image](https://user-images.githubusercontent.com/826579/118293609-d0c45d00-b4a7-11eb-9e5d-cbef1e014b86.png)
 
 Bonus work: A second message for students that finish quickly
-- [Review the BOMBE[(https://www.britannica.com/topic/Ultra-Allied-intelligence-project#ref1073435)
+- [Review the BOMBE](https://www.britannica.com/topic/Ultra-Allied-intelligence-project#ref1073435)
 - [Review Wiki](http://wiki.franklinheath.co.uk/index.php/Enigma)
 
 ### Modern Cipher: Symmetric Block Cipher Lesson
