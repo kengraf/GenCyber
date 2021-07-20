@@ -105,7 +105,7 @@ Review the "Pringles Can" videos to understand the "Cipher History" module's han
 *DES*
 [Wikipedia](https://en.wikipedia.org/wiki/Data_Encryption_Standard)
 
-^AES*
+*AES*
 [AES explained](https://www.youtube.com/watch?v=mlzxpkdXP58)
 
 ### SOFTWARE
