@@ -96,7 +96,7 @@ No local software install is required.
 
 ## LESSON 
 ### Module NH:
-[New Hampshire](https://wlowi.cyber-unh.org/treasuremap.html?region=NH)  
+[New Hampshire based map](https://ciphermaps.web.app/?region=NH)  
 
 #### Story: Redstone rocket
 [link](https://www.atlasobscura.com/places/redstone-rocket)  
@@ -158,12 +158,12 @@ Answer: DyNAmIC AmErICaN WAr ReSeArCH GeNiUS
 [link](https://www.tripadvisor.com/Attraction_Review-g46209-d5961990-Reviews-Portsmouth_Black_Heritage_Trail-Portsmouth_New_Hampshire.html)  
 imageCaption: "Trip Advisor picture"  
 [url](https://www.nhbr.com/black-heritage-trail-uncovers-hidden-history/)  
-Riddle: "Follow the Portsmouth Black Heritage Trail.  Which location does not have a trail marker?<div><p class='text-center'>ducks.stands.drag<br>excuse.factor.chose<br>space.beans.fault<br>truly.honest.onion<br>hello.forced.hoot<br>torch.dusty.precautions<br>spell.puzzle.weds<br>slide.sulk.others<br>action.rich.robot</p></div"  
+Riddle: "Follow the Portsmouth Black Heritage Trail.  Which location does not have a trail marker?<div><p class='text-center'>ducks.stands.drag<br>excuse.factor.chose<br>space.beans.fault<br>truly.honest.onion<br>hello.forced.hoot<br>torch.dusty.precautions<br>spell.puzzle.weds<br>slide.sulk.others<br>action.rich.robot</p></div>"  
 Hint:  What 3 words  
 Answer: action.rich.robot    
 
 ### Module US:
-[US](https://wlowi.cyber-unh.org/treasuremap.html?region=US)   
+[United States based map](https://ciphermaps.web.app/?region=US)  
 
 #### Story: Grace Hopper    
 [link](https://developer.ibm.com/blogs/ibm-at-grace-hopper-celebration-of-women-in-computing-2019/)  
@@ -231,7 +231,7 @@ Answer:  Richmond Underground
 
 
 ### Module World:
-[World](https://wlowi.cyber-unh.org/treasuremap.html?region=WORLD)  
+[World based map](https://ciphermaps.web.app/?region=WORLD)  
 
 #### Story: Hack The Box    
 [link](https://app.hackthebox.eu/home)  
