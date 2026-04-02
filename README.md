@@ -22,11 +22,11 @@ The audience isn't expected to be programming or security knowledgeable.
 
 Four (4) lessons are provided in separate repos.  The lesson notebook provides step-by-step instructions.
 
-1) Intro to Linux command line.  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kengraf/LinuxCommand/HEAD?LinuxCommand)
+1) Intro to Linux command line.  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kengraf/GenCyber/HEAD?LinuxCommand)
 
-2) Using a railfence cipher [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kengraf/Railfence/HEAD?RailFence)
+2) Using a railfence cipher [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kengraf/GenCyber/HEAD?RailFence)
 
-3) Image based steganography [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kengraf/Steganography/HEAD?filepath=Steganography)
+3) Image based steganography [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kengraf/GenCyber/HEAD?filepath=Steganography)
 
 4) TOTP (GoogleAuthenicator like) tokens [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kengraf/GenCyber/HEAD?filepath=TOTP)
 
