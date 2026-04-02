@@ -28,7 +28,8 @@ Four (4) lessons are provided in separate repos.  The lesson notebook provides s
 
 3) Image based steganography [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kengraf/Steganography/HEAD)
 
-4) TOTP (GoogleAuthenicator like) tokens [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kengraf/TOTP/HEAD)
+4) TOTP (GoogleAuthenicator like) tokens [![Binder](https://github.com/kengraf/GenCyber/tree/main/TOTP)]
+5) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kengraf/TOTP/HEAD)
 
 The startup of Binder.org takes a minute or so to establish an IPython
 environment.  Then click on the lesson link "LESSON.ipynb" you would like to run.  Feel free to play/alter the steps
